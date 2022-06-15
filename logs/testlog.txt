@@ -1,0 +1,4 @@
+2022-05-21 11:07:45	ERROR	test marco Error
+2022-05-21 11:07:45	FATAL	test marco Fatal
+2022-05-21 11:07:45	ERROR	test marco Error fmtlog
+2022-05-21 11:07:45	FATAL	test marco Fatal fmtlog

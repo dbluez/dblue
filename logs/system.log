@@ -1,0 +1,177 @@
+2022-06-09 20:48:01	hello system1	3280
+2022-06-09 20:48:01	hello system2	3280
+2022-06-09 20:48:01 - hello system
+
+2022-06-10 01:28:07	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	16409
+2022-06-10 01:28:14	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	16480
+2022-06-10 01:28:18	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	16516
+2022-06-10 01:28:18	Fiber::Fiber() main id = 0	16517
+2022-06-10 01:28:18	Fiber::Fiber() id = 1	16517
+2022-06-10 01:28:18	Fiber::Fiber() main id = 2	16518
+2022-06-10 01:28:18	Fiber::Fiber() id = 3	16518
+2022-06-10 01:28:18	Fiber::~Fiber() id = 1	16517
+2022-06-10 01:28:18	dealloc stack, id = 1	16517
+2022-06-10 01:28:18	Fiber::~Fiber() id = 0	16517
+2022-06-10 01:28:18	Fiber::~Fiber() id = 3	16518
+2022-06-10 01:28:18	dealloc stack, id = 3	16518
+2022-06-10 01:28:18	Fiber::~Fiber() id = 2	16518
+2022-06-10 01:30:58	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	17477
+2022-06-10 01:30:58	Fiber::Fiber() main id = 0	17478
+2022-06-10 01:30:58	Fiber::Fiber() id = 1	17478
+2022-06-10 01:30:58	Fiber::Fiber() main id = 2	17479
+2022-06-10 01:30:58	Fiber::Fiber() id = 3	17479
+2022-06-10 01:30:58	Fiber::~Fiber() id = 1	17478
+2022-06-10 01:30:58	dealloc stack, id = 1	17478
+2022-06-10 01:30:58	Fiber::~Fiber() id = 0	17478
+2022-06-10 01:30:58	Fiber::~Fiber() id = 3	17479
+2022-06-10 01:30:58	dealloc stack, id = 3	17479
+2022-06-10 01:30:58	Fiber::~Fiber() id = 2	17479
+2022-06-10 01:31:15	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	17593
+2022-06-10 01:31:38	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	17698
+2022-06-10 01:35:26	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	18606
+2022-06-10 01:35:26	Fiber::Fiber() main id = 0	18609
+2022-06-10 01:35:26	Fiber::Fiber() main id = 2	18610
+2022-06-10 01:35:26	Fiber::Fiber() id = 3	18610
+2022-06-10 01:35:26	Fiber::Fiber() id = 1	18609
+2022-06-10 01:35:26	Fiber::~Fiber() id = 3	18610
+2022-06-10 01:35:26	Fiber::~Fiber() id = 1	18609
+2022-06-10 01:35:26	dealloc stack, id = 3	18610
+2022-06-10 01:35:26	dealloc stack, id = 1	18609
+2022-06-10 01:35:26	Fiber::~Fiber() id = 2	18610
+2022-06-10 01:35:26	Fiber::~Fiber() id = 0	18609
+2022-06-10 01:39:01	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	19714
+2022-06-10 01:39:01	Fiber::Fiber() main id = 0	19715
+2022-06-10 01:39:01	Fiber::Fiber() id = 1	19715
+2022-06-10 01:39:01	Fiber::~Fiber() id = 1	19715
+2022-06-10 01:39:01	dealloc stack, id = 1	19715
+2022-06-10 01:39:01	Fiber::~Fiber() id = 0	19715
+2022-06-10 01:39:01	Fiber::Fiber() main id = 2	19716
+2022-06-10 01:39:01	Fiber::Fiber() id = 3	19716
+2022-06-10 01:39:01	Fiber::~Fiber() id = 3	19716
+2022-06-10 01:39:01	dealloc stack, id = 3	19716
+2022-06-10 01:39:01	Fiber::~Fiber() id = 2	19716
+2022-06-10 01:39:07	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	19816
+2022-06-10 01:39:48	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	20021
+2022-06-10 01:40:05	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	20152
+2022-06-10 01:40:05	Fiber::Fiber() main id = 0	20153
+2022-06-10 01:40:05	Fiber::Fiber() id = 1	20153
+2022-06-10 01:40:05	Fiber::~Fiber() id = 1	20153
+2022-06-10 01:40:05	dealloc stack, id = 1	20153
+2022-06-10 01:40:05	Fiber::~Fiber() id = 0	20153
+2022-06-10 01:40:05	Fiber::Fiber() main id = 2	20154
+2022-06-10 01:40:05	Fiber::Fiber() id = 3	20154
+2022-06-10 01:40:05	Fiber::~Fiber() id = 3	20154
+2022-06-10 01:40:05	dealloc stack, id = 3	20154
+2022-06-10 01:40:05	Fiber::~Fiber() id = 2	20154
+2022-06-10 01:50:20	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	24116
+2022-06-10 15:06:57	hello system
+	13721
+2022-06-10 15:06:57 - hello system
+
+2022-06-10 15:11:50	hello system
+	14884
+2022-06-10 15:11:50 - hello system
+
+2022-06-15 10:09:00	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	31831
+2022-06-15 10:09:00	on_request_message_begin_cb	31831
+2022-06-15 10:09:00	on_request_url_cb, url is:/login?aa=bb#sss	31831
+2022-06-15 10:09:00	on_request_header_field_cb, field is:Host	31831
+2022-06-15 10:09:00	on_request_header_value_cb, value is:www.sylar.top	31831
+2022-06-15 10:09:00	on_request_header_field_cb, field is:Content-Length	31831
+2022-06-15 10:09:00	on_request_header_value_cb, value is:10	31831
+2022-06-15 10:09:00	on_request_headers_complete_cb	31831
+2022-06-15 10:09:00	on_request_body_cb, body is:1234567890	31831
+2022-06-15 10:09:00	on_request_message_complete_cb	31831
+2022-06-15 10:09:00	on_request_message_begin_cb	31831
+2022-06-15 10:09:00	on_request_url_cb, url is:/two_chunks_mult_zero_end	31831
+2022-06-15 10:09:00	on_request_header_field_cb, field is:Transfer-Encoding	31831
+2022-06-15 10:09:00	on_request_header_value_cb, value is:chunked	31831
+2022-06-15 10:09:00	on_request_headers_complete_cb	31831
+2022-06-15 10:09:00	on_request_chunk_header_cb	31831
+2022-06-15 10:09:00	on_request_body_cb, body is:hello	31831
+2022-06-15 10:09:00	on_request_chunk_complete_cb	31831
+2022-06-15 10:09:00	on_request_chunk_header_cb	31831
+2022-06-15 10:09:00	on_request_body_cb, body is: world	31831
+2022-06-15 10:09:00	on_request_chunk_complete_cb	31831
+2022-06-15 10:09:00	on_request_chunk_header_cb	31831
+2022-06-15 10:09:00	on_request_chunk_complete_cb	31831
+2022-06-15 10:09:00	on_request_message_complete_cb	31831
+2022-06-15 10:09:00	on_response_message_begin_cb	31831
+2022-06-15 10:09:00	on_response_status_cb, status code is: 301, status msg is: Moved Permanently	31831
+2022-06-15 10:09:00	on_response_header_field_cb, field is:Location	31831
+2022-06-15 10:09:00	on_response_header_value_cb, value is:http://www.google.com/	31831
+2022-06-15 10:09:00	on_response_header_field_cb, field is:Content-Type	31831
+2022-06-15 10:09:00	on_response_header_value_cb, value is:text/html; charset=UTF-8	31831
+2022-06-15 10:09:00	on_response_header_field_cb, field is:Date	31831
+2022-06-15 10:09:00	on_response_header_value_cb, value is:Sun, 26 Apr 2009 11:11:49 GMT	31831
+2022-06-15 10:09:00	on_response_header_field_cb, field is:Expires	31831
+2022-06-15 10:09:00	on_response_header_value_cb, value is:Tue, 26 May 2009 11:11:49 GMT	31831
+2022-06-15 10:09:00	on_response_header_field_cb, field is:X-$PrototypeBI-Version	31831
+2022-06-15 10:09:00	on_response_header_value_cb, value is:1.6.0.3	31831
+2022-06-15 10:09:00	on_response_header_field_cb, field is:Cache-Control	31831
+2022-06-15 10:09:00	on_response_header_value_cb, value is:public, max-age=2592000	31831
+2022-06-15 10:09:00	on_response_header_field_cb, field is:Server	31831
+2022-06-15 10:09:00	on_response_header_value_cb, value is:gws	31831
+2022-06-15 10:09:00	on_response_header_field_cb, field is:Content-Length	31831
+2022-06-15 10:09:00	on_response_header_value_cb, value is:219  	31831
+2022-06-15 10:09:00	on_response_headers_complete_cb	31831
+2022-06-15 10:09:00	on_response_body_cb, body is:<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
+	31831
+2022-06-15 10:09:00	on_response_message_complete_cb	31831
+2022-06-15 10:13:16	LoadConfFile file=/home/zhangy/Project/deepblue/bin/conf/log.yml ok	419
+2022-06-15 10:13:16	on_request_message_begin_cb	419
+2022-06-15 10:13:16	on_request_url_cb, url is:/login?aa=bb#sss	419
+2022-06-15 10:13:16	on_request_header_field_cb, field is:Host	419
+2022-06-15 10:13:16	on_request_header_value_cb, value is:www.sylar.top	419
+2022-06-15 10:13:16	on_request_header_field_cb, field is:Content-Length	419
+2022-06-15 10:13:16	on_request_header_value_cb, value is:10	419
+2022-06-15 10:13:16	on_request_headers_complete_cb	419
+2022-06-15 10:13:16	on_request_body_cb, body is:1234567890	419
+2022-06-15 10:13:16	on_request_message_complete_cb	419
+2022-06-15 10:13:16	on_request_message_begin_cb	419
+2022-06-15 10:13:16	on_request_url_cb, url is:/two_chunks_mult_zero_end	419
+2022-06-15 10:13:16	on_request_header_field_cb, field is:Transfer-Encoding	419
+2022-06-15 10:13:16	on_request_header_value_cb, value is:chunked	419
+2022-06-15 10:13:16	on_request_headers_complete_cb	419
+2022-06-15 10:13:16	on_request_chunk_header_cb	419
+2022-06-15 10:13:16	on_request_body_cb, body is:hello	419
+2022-06-15 10:13:16	on_request_chunk_complete_cb	419
+2022-06-15 10:13:16	on_request_chunk_header_cb	419
+2022-06-15 10:13:16	on_request_body_cb, body is: world	419
+2022-06-15 10:13:16	on_request_chunk_complete_cb	419
+2022-06-15 10:13:16	on_request_chunk_header_cb	419
+2022-06-15 10:13:16	on_request_chunk_complete_cb	419
+2022-06-15 10:13:16	on_request_message_complete_cb	419
+2022-06-15 10:13:16	on_response_message_begin_cb	419
+2022-06-15 10:13:16	on_response_status_cb, status code is: 301, status msg is: Moved Permanently	419
+2022-06-15 10:13:16	on_response_header_field_cb, field is:Location	419
+2022-06-15 10:13:16	on_response_header_value_cb, value is:http://www.google.com/	419
+2022-06-15 10:13:16	on_response_header_field_cb, field is:Content-Type	419
+2022-06-15 10:13:16	on_response_header_value_cb, value is:text/html; charset=UTF-8	419
+2022-06-15 10:13:16	on_response_header_field_cb, field is:Date	419
+2022-06-15 10:13:16	on_response_header_value_cb, value is:Sun, 26 Apr 2009 11:11:49 GMT	419
+2022-06-15 10:13:16	on_response_header_field_cb, field is:Expires	419
+2022-06-15 10:13:16	on_response_header_value_cb, value is:Tue, 26 May 2009 11:11:49 GMT	419
+2022-06-15 10:13:16	on_response_header_field_cb, field is:X-$PrototypeBI-Version	419
+2022-06-15 10:13:16	on_response_header_value_cb, value is:1.6.0.3	419
+2022-06-15 10:13:16	on_response_header_field_cb, field is:Cache-Control	419
+2022-06-15 10:13:16	on_response_header_value_cb, value is:public, max-age=2592000	419
+2022-06-15 10:13:16	on_response_header_field_cb, field is:Server	419
+2022-06-15 10:13:16	on_response_header_value_cb, value is:gws	419
+2022-06-15 10:13:16	on_response_header_field_cb, field is:Content-Length	419
+2022-06-15 10:13:16	on_response_header_value_cb, value is:219  	419
+2022-06-15 10:13:16	on_response_headers_complete_cb	419
+2022-06-15 10:13:16	on_response_body_cb, body is:
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
+	419
+2022-06-15 10:13:16	on_response_message_complete_cb	419

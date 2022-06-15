@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-9/root/usr/bin/c++   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations  -rdynamic CMakeFiles/test_node.dir/tests/test_node.cc.o  -o bin/test_node -Wl,-rpath,/usr/local/lib64 /usr/local/lib64/libyaml-cpp.so 

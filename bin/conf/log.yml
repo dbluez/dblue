@@ -1,0 +1,22 @@
+logs:
+  - name: root
+    level: info
+    formatter: "%d%T%m%T%t%n"
+    appenders:
+      - type: FileLogAppender
+        file: ./logs/root.log
+      - type: StdoutLogAppender
+  - name: system
+    level: debug
+    formatter: "%d%T%m%T%t%n"
+    appenders:
+      - type: FileLogAppender
+        file: ./logs/system.log
+      - type: StdoutLogAppender
+  - name: test
+    level: debug
+    formatter: "%d - %m%n"
+    appenders:
+      - type: StdoutLogAppender
+      - type: FileLogAppender
+        file: ./logs/test.log

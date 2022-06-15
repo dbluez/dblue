@@ -1,0 +1,526 @@
+2022-06-09 20:48:01	name=class.vec_map description=system person typename=std::map<std::string, std::vector<Person, std::allocator<Person> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::vector<Person, std::allocator<Person> > > > > value={}	3280
+2022-06-09 20:48:01	name=class.person description=system person typename=Person value=name: ""
+age: 0
+sex: false	3280
+2022-06-09 20:48:01	name=system.value description=system value typename=float value=10.1999998	3280
+2022-06-09 20:48:01	name=logs description=logs config typename=std::set<deepblue::LogDefine, std::less<deepblue::LogDefine>, std::allocator<deepblue::LogDefine> > value=- name: root
+  level: INFO
+  formatter: "%d%T%m%T%t%n"
+  appenders:
+    - type: FileLogAppender
+      file: ./logs/root.log
+    - type: StdoutLogAppender
+- name: system
+  level: DEBUG
+  formatter: "%d%T%m%T%t%n"
+  appenders:
+    - type: FileLogAppender
+      file: ./logs/system.log
+    - type: StdoutLogAppender
+- name: test
+  level: DEBUG
+  formatter: "%d - %m%n"
+  appenders:
+    - type: StdoutLogAppender
+    - type: FileLogAppender
+      file: ./logs/test.log	3280
+2022-06-09 20:48:01	name=fiber.stack_size description=fiber stack size typename=unsigned int value=131072	3280
+2022-06-09 20:48:01	name=system.str_int_map description=system str int map typename=std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > value=k1: 1
+k2: 2	3280
+2022-06-09 20:48:01	name=system.int_list description=system int list typename=std::list<int, std::allocator<int> > value=- 1
+- 2	3280
+2022-06-09 20:48:01	name=system.int_vec description=system int vec typename=std::vector<int, std::allocator<int> > value=- 1
+- 2	3280
+2022-06-09 20:48:01	name=class.map description=system person typename=std::map<std::string, Person, std::less<std::string>, std::allocator<std::pair<std::string const, Person> > > value={}	3280
+2022-06-09 20:48:01	name=system.port description=system port typename=int value=8080	3280
+2022-06-09 20:48:01	name=system.int_set description=system int set typename=std::set<int, std::less<int>, std::allocator<int> > value=- 1
+- 2	3280
+2022-06-09 20:48:01	name=system.int_uset description=system int uset typename=std::unordered_set<int, std::hash<int>, std::equal_to<int>, std::allocator<int> > value=- 2
+- 1	3280
+2022-06-09 20:48:01	name=system.str_int_umap description=system str int umap typename=std::unordered_map<std::string, int, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, int> > > value=k2: 2
+k1: 1	3280
+2022-06-10 01:28:07	fatal msg	16409
+2022-06-10 01:28:07	err msg	16409
+2022-06-10 01:28:07	info msg	16409
+2022-06-10 01:28:07	fatal tests/test_log.cpp:24	16409
+2022-06-10 01:28:07	err tests/test_log.cpp:25	16409
+2022-06-10 01:28:07	info tests/test_log.cpp:26	16409
+2022-06-10 01:28:08	fatal msg	16409
+2022-06-10 01:28:08	err msg	16409
+2022-06-10 01:28:08	fatal msg	16409
+2022-06-10 01:28:08	err msg	16409
+2022-06-10 01:28:08	logger config:- name: root
+  level: INFO
+  formatter: "%d%T%m%T%t%n"
+  appenders:
+    - type: FileLogAppender
+      file: ./logs/root.log
+    - type: StdoutLogAppender
+    - type: FileLogAppender
+      file: ./log.txt
+      level: DEBUG
+- name: system
+  level: DEBUG
+  formatter: "%d%T%m%T%t%n"
+  appenders:
+    - type: FileLogAppender
+      file: ./logs/system.log
+    - type: StdoutLogAppender
+- name: test
+  level: DEBUG
+  formatter: "%d - %m%n"
+  appenders:
+    - type: StdoutLogAppender
+    - type: FileLogAppender
+      file: ./logs/test.log
+- name: test_logger
+  level: WARN
+  formatter: "%d{%Y-%m-%d %H:%M:%S}%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+  appenders:
+    - type: StdoutLogAppender
+      level: DEBUG
+      formatter: "%d:%rms%T%p%T%c%T%f:%l %m%n"	16409
+2022-06-10 01:28:14	after============================	16480
+2022-06-10 01:28:14	g_int value: 8080	16480
+2022-06-10 01:28:14	g_float value: 10.2	16480
+2022-06-10 01:28:14	g_string value: helloworld	16480
+2022-06-10 01:28:14	g_int_vec value: [ 1 2 3 ]	16480
+2022-06-10 01:28:14	g_int_list value: [ 1 2 3 ]	16480
+2022-06-10 01:28:14	g_int_set value: [ 1 2 3 ]	16480
+2022-06-10 01:28:14	g_int_unordered_set value: [ 3 1 2 ]	16480
+2022-06-10 01:28:14	g_int_map value: { {key1:1} {key2:2} }	16480
+2022-06-10 01:28:14	g_int_unordered_map value: { {key2:2} {key1:1} }	16480
+2022-06-10 01:28:14	[Person name=zhangy age=18 sex=1]	16480
+2022-06-10 01:28:14	zhangy1:[Person name=zhangy01 age=19 sex=1]	16480
+2022-06-10 01:28:14	zhangy2:[Person name=zhangy02 age=20 sex=0]	16480
+2022-06-10 01:28:14	k1	16480
+2022-06-10 01:28:14	[Person name=zhangy03 age=21 sex=1]	16480
+2022-06-10 01:28:14	[Person name=zhangy04 age=22 sex=0]	16480
+2022-06-10 01:28:14	k2	16480
+2022-06-10 01:28:14	[Person name=zhangy05 age=23 sex=1]	16480
+2022-06-10 01:28:14	[Person name=zhangy06 age=24 sex=0]	16480
+2022-06-10 01:28:14	name=class.map description=system person map typename=std::map<std::string, Person, std::less<std::string>, std::allocator<std::pair<std::string const, Person> > > value=zhangy1:
+  name: zhangy01
+  age: 19
+  sex: true
+zhangy2:
+  name: zhangy02
+  age: 20
+  sex: false	16480
+2022-06-10 01:28:14	name=class.person description=system person typename=Person value=name: zhangy
+age: 18
+sex: true	16480
+2022-06-10 01:28:14	name=global.unordered_map_string2int description=global unordered_map string2int typename=std::unordered_map<std::string, int, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, int> > > value=key2: 2
+key1: 1	16480
+2022-06-10 01:28:14	name=global.map_string2int description=global map string2int typename=std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > value=key1: 1
+key2: 2	16480
+2022-06-10 01:28:14	name=global.int description=global int typename=int value=8080	16480
+2022-06-10 01:28:14	name=global.int_vec description=global int vec typename=std::vector<int, std::allocator<int> > value=- 1
+- 2
+- 3	16480
+2022-06-10 01:28:14	name=tcp.connect.timeout description=tcp connect timeout typename=int value=5000	16480
+2022-06-10 01:28:14	name=global.int_list description=global int list typename=std::list<int, std::allocator<int> > value=- 1
+- 2
+- 3	16480
+2022-06-10 01:28:14	name=logs description=logs config typename=std::set<deepblue::LogDefine, std::less<deepblue::LogDefine>, std::allocator<deepblue::LogDefine> > value=- name: root
+  level: INFO
+  formatter: "%d%T%m%T%t%n"
+  appenders:
+    - type: FileLogAppender
+      file: ./logs/root.log
+    - type: StdoutLogAppender
+- name: system
+  level: DEBUG
+  formatter: "%d%T%m%T%t%n"
+  appenders:
+    - type: FileLogAppender
+      file: ./logs/system.log
+    - type: StdoutLogAppender
+- name: test
+  level: DEBUG
+  formatter: "%d - %m%n"
+  appenders:
+    - type: StdoutLogAppender
+    - type: FileLogAppender
+      file: ./logs/test.log	16480
+2022-06-10 01:28:14	name=fiber.stack_size description=fiber stack size typename=unsigned int value=131072	16480
+2022-06-10 01:28:14	name=global.int_set description=global int set typename=std::set<int, std::less<int>, std::allocator<int> > value=- 1
+- 2
+- 3	16480
+2022-06-10 01:28:14	name=global.float description=global float typename=float value=10.1999998	16480
+2022-06-10 01:28:14	name=global.string description=global string typename=std::string value=helloworld	16480
+2022-06-10 01:28:14	name=class.vec_map description=system vec map typename=std::map<std::string, std::vector<Person, std::allocator<Person> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::vector<Person, std::allocator<Person> > > > > value=k1:
+  - name: zhangy03
+    age: 21
+    sex: true
+  - name: zhangy04
+    age: 22
+    sex: false
+k2:
+  - name: zhangy05
+    age: 23
+    sex: true
+  - name: zhangy06
+    age: 24
+    sex: false	16480
+2022-06-10 01:28:14	name=global.int_unordered_set description=global int unordered_set typename=std::unordered_set<int, std::hash<int>, std::equal_to<int>, std::allocator<int> > value=- 3
+- 1
+- 2	16480
+2022-06-10 01:28:18	main begin	16516
+2022-06-10 01:28:18	test_fiber begin	16517
+2022-06-10 01:28:18	use_count:1	16517
+2022-06-10 01:28:18	before test_fiber resume	16517
+2022-06-10 01:28:18	run_in_fiber begin	16517
+2022-06-10 01:28:18	before run_in_fiber yield	16517
+2022-06-10 01:28:18	after test_fiber resume	16517
+2022-06-10 01:28:18	test_fiber begin	16518
+2022-06-10 01:28:18	use_count:3	16517
+2022-06-10 01:28:18	fiber status: 0	16517
+2022-06-10 01:28:18	before test_fiber resume again	16517
+2022-06-10 01:28:18	after run_in_fiber yield	16517
+2022-06-10 01:28:18	run_in_fiber end	16517
+2022-06-10 01:28:18	use_count:1	16518
+2022-06-10 01:28:18	after test_fiber resume again	16517
+2022-06-10 01:28:18	before test_fiber resume	16518
+2022-06-10 01:28:18	use_count:1	16517
+2022-06-10 01:28:18	run_in_fiber begin	16518
+2022-06-10 01:28:18	fiber status: 2	16517
+2022-06-10 01:28:18	before run_in_fiber yield	16518
+2022-06-10 01:28:18	run_in_fiber2 begin	16517
+2022-06-10 01:28:18	after test_fiber resume	16518
+2022-06-10 01:28:18	run_in_fiber2 end	16517
+2022-06-10 01:28:18	use_count:3	16518
+2022-06-10 01:28:18	use_count:1	16517
+2022-06-10 01:28:18	fiber status: 0	16518
+2022-06-10 01:28:18	test_fiber end	16517
+2022-06-10 01:28:18	before test_fiber resume again	16518
+2022-06-10 01:28:18	after run_in_fiber yield	16518
+2022-06-10 01:28:18	run_in_fiber end	16518
+2022-06-10 01:28:18	after test_fiber resume again	16518
+2022-06-10 01:28:18	use_count:1	16518
+2022-06-10 01:28:18	fiber status: 2	16518
+2022-06-10 01:28:18	run_in_fiber2 begin	16518
+2022-06-10 01:28:18	run_in_fiber2 end	16518
+2022-06-10 01:28:18	use_count:1	16518
+2022-06-10 01:28:18	test_fiber end	16518
+2022-06-10 01:28:18	main end	16516
+2022-06-10 01:30:58	main begin	17477
+2022-06-10 01:30:58	test_fiber begin	17478
+2022-06-10 01:30:58	use_count:1	17478
+2022-06-10 01:30:58	before test_fiber resume	17478
+2022-06-10 01:30:58	run_in_fiber begin	17478
+2022-06-10 01:30:58	before run_in_fiber yield	17478
+2022-06-10 01:30:58	test_fiber begin	17479
+2022-06-10 01:30:58	after test_fiber resume	17478
+2022-06-10 01:30:58	use_count:1	17479
+2022-06-10 01:30:58	use_count:3	17478
+2022-06-10 01:30:58	before test_fiber resume	17479
+2022-06-10 01:30:58	fiber status: 0	17478
+2022-06-10 01:30:58	run_in_fiber begin	17479
+2022-06-10 01:30:58	before test_fiber resume again	17478
+2022-06-10 01:30:58	before run_in_fiber yield	17479
+2022-06-10 01:30:58	after run_in_fiber yield	17478
+2022-06-10 01:30:58	after test_fiber resume	17479
+2022-06-10 01:30:58	run_in_fiber end	17478
+2022-06-10 01:30:58	use_count:3	17479
+2022-06-10 01:30:58	after test_fiber resume again	17478
+2022-06-10 01:30:58	fiber status: 0	17479
+2022-06-10 01:30:58	use_count:1	17478
+2022-06-10 01:30:58	before test_fiber resume again	17479
+2022-06-10 01:30:58	fiber status: 2	17478
+2022-06-10 01:30:58	after run_in_fiber yield	17479
+2022-06-10 01:30:58	run_in_fiber2 begin	17478
+2022-06-10 01:30:58	run_in_fiber end	17479
+2022-06-10 01:30:58	run_in_fiber2 end	17478
+2022-06-10 01:30:58	after test_fiber resume again	17479
+2022-06-10 01:30:58	use_count:1	17478
+2022-06-10 01:30:58	use_count:1	17479
+2022-06-10 01:30:58	test_fiber end	17478
+2022-06-10 01:30:58	fiber status: 2	17479
+2022-06-10 01:30:58	run_in_fiber2 begin	17479
+2022-06-10 01:30:58	run_in_fiber2 end	17479
+2022-06-10 01:30:58	use_count:1	17479
+2022-06-10 01:30:58	test_fiber end	17479
+2022-06-10 01:30:58	main end	17477
+2022-06-10 01:31:15	after============================	17593
+2022-06-10 01:31:15	g_int value: 8080	17593
+2022-06-10 01:31:15	g_float value: 10.2	17593
+2022-06-10 01:31:15	g_string value: helloworld	17593
+2022-06-10 01:31:15	g_int_vec value: [ 1 2 3 ]	17593
+2022-06-10 01:31:15	g_int_list value: [ 1 2 3 ]	17593
+2022-06-10 01:31:15	g_int_set value: [ 1 2 3 ]	17593
+2022-06-10 01:31:15	g_int_unordered_set value: [ 3 1 2 ]	17593
+2022-06-10 01:31:15	g_int_map value: { {key1:1} {key2:2} }	17593
+2022-06-10 01:31:15	g_int_unordered_map value: { {key2:2} {key1:1} }	17593
+2022-06-10 01:31:15	[Person name=zhangy age=18 sex=1]	17593
+2022-06-10 01:31:15	zhangy1:[Person name=zhangy01 age=19 sex=1]	17593
+2022-06-10 01:31:15	zhangy2:[Person name=zhangy02 age=20 sex=0]	17593
+2022-06-10 01:31:15	k1	17593
+2022-06-10 01:31:15	[Person name=zhangy03 age=21 sex=1]	17593
+2022-06-10 01:31:15	[Person name=zhangy04 age=22 sex=0]	17593
+2022-06-10 01:31:15	k2	17593
+2022-06-10 01:31:15	[Person name=zhangy05 age=23 sex=1]	17593
+2022-06-10 01:31:15	[Person name=zhangy06 age=24 sex=0]	17593
+2022-06-10 01:31:15	name=class.map description=system person map typename=std::map<std::string, Person, std::less<std::string>, std::allocator<std::pair<std::string const, Person> > > value=zhangy1:
+  name: zhangy01
+  age: 19
+  sex: true
+zhangy2:
+  name: zhangy02
+  age: 20
+  sex: false	17593
+2022-06-10 01:31:15	name=class.person description=system person typename=Person value=name: zhangy
+age: 18
+sex: true	17593
+2022-06-10 01:31:15	name=global.unordered_map_string2int description=global unordered_map string2int typename=std::unordered_map<std::string, int, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, int> > > value=key2: 2
+key1: 1	17593
+2022-06-10 01:31:15	name=global.map_string2int description=global map string2int typename=std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > value=key1: 1
+key2: 2	17593
+2022-06-10 01:31:15	name=global.int description=global int typename=int value=8080	17593
+2022-06-10 01:31:15	name=global.int_vec description=global int vec typename=std::vector<int, std::allocator<int> > value=- 1
+- 2
+- 3	17593
+2022-06-10 01:31:15	name=tcp.connect.timeout description=tcp connect timeout typename=int value=5000	17593
+2022-06-10 01:31:15	name=global.int_list description=global int list typename=std::list<int, std::allocator<int> > value=- 1
+- 2
+- 3	17593
+2022-06-10 01:31:15	name=logs description=logs config typename=std::set<deepblue::LogDefine, std::less<deepblue::LogDefine>, std::allocator<deepblue::LogDefine> > value=- name: root
+  level: INFO
+  formatter: "%d%T%m%T%t%n"
+  appenders:
+    - type: FileLogAppender
+      file: ./logs/root.log
+    - type: StdoutLogAppender
+- name: system
+  level: DEBUG
+  formatter: "%d%T%m%T%t%n"
+  appenders:
+    - type: FileLogAppender
+      file: ./logs/system.log
+    - type: StdoutLogAppender
+- name: test
+  level: DEBUG
+  formatter: "%d - %m%n"
+  appenders:
+    - type: StdoutLogAppender
+    - type: FileLogAppender
+      file: ./logs/test.log	17593
+2022-06-10 01:31:15	name=fiber.stack_size description=fiber stack size typename=unsigned int value=131072	17593
+2022-06-10 01:31:15	name=global.int_set description=global int set typename=std::set<int, std::less<int>, std::allocator<int> > value=- 1
+- 2
+- 3	17593
+2022-06-10 01:31:15	name=global.float description=global float typename=float value=10.1999998	17593
+2022-06-10 01:31:15	name=global.string description=global string typename=std::string value=helloworld	17593
+2022-06-10 01:31:15	name=class.vec_map description=system vec map typename=std::map<std::string, std::vector<Person, std::allocator<Person> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::vector<Person, std::allocator<Person> > > > > value=k1:
+  - name: zhangy03
+    age: 21
+    sex: true
+  - name: zhangy04
+    age: 22
+    sex: false
+k2:
+  - name: zhangy05
+    age: 23
+    sex: true
+  - name: zhangy06
+    age: 24
+    sex: false	17593
+2022-06-10 01:31:15	name=global.int_unordered_set description=global int unordered_set typename=std::unordered_set<int, std::hash<int>, std::equal_to<int>, std::allocator<int> > value=- 3
+- 1
+- 2	17593
+2022-06-10 01:31:38	fatal msg	17698
+2022-06-10 01:31:38	err msg	17698
+2022-06-10 01:31:38	info msg	17698
+2022-06-10 01:31:38	fatal tests/test_log.cpp:24	17698
+2022-06-10 01:31:38	err tests/test_log.cpp:25	17698
+2022-06-10 01:31:38	info tests/test_log.cpp:26	17698
+2022-06-10 01:31:39	fatal msg	17698
+2022-06-10 01:31:39	err msg	17698
+2022-06-10 01:31:39	fatal msg	17698
+2022-06-10 01:31:39	err msg	17698
+2022-06-10 01:31:39	logger config:- name: root
+  level: INFO
+  formatter: "%d%T%m%T%t%n"
+  appenders:
+    - type: FileLogAppender
+      file: ./logs/root.log
+    - type: StdoutLogAppender
+    - type: FileLogAppender
+      file: ./log.txt
+      level: DEBUG
+- name: system
+  level: DEBUG
+  formatter: "%d%T%m%T%t%n"
+  appenders:
+    - type: FileLogAppender
+      file: ./logs/system.log
+    - type: StdoutLogAppender
+- name: test
+  level: DEBUG
+  formatter: "%d - %m%n"
+  appenders:
+    - type: StdoutLogAppender
+    - type: FileLogAppender
+      file: ./logs/test.log
+- name: test_logger
+  level: WARN
+  formatter: "%d{%Y-%m-%d %H:%M:%S}%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+  appenders:
+    - type: StdoutLogAppender
+      level: DEBUG
+      formatter: "%d:%rms%T%p%T%c%T%f:%l %m%n"	17698
+2022-06-10 01:35:26	main begin	18606
+2022-06-10 01:35:26	test_fiber begin	18609
+2022-06-10 01:35:26	test_fiber begin	18610
+2022-06-10 01:35:26	use_count:1	18610
+2022-06-10 01:35:26	before test_fiber resume	18610
+2022-06-10 01:35:26	use_count:1	18609
+2022-06-10 01:35:26	run_in_fiber begin	18610
+2022-06-10 01:35:26	before test_fiber resume	18609
+2022-06-10 01:35:26	before run_in_fiber yield	18610
+2022-06-10 01:35:26	run_in_fiber begin	18609
+2022-06-10 01:35:26	after test_fiber resume	18610
+2022-06-10 01:35:26	before run_in_fiber yield	18609
+2022-06-10 01:35:26	use_count:3	18610
+2022-06-10 01:35:26	after test_fiber resume	18609
+2022-06-10 01:35:26	fiber status: 0	18610
+2022-06-10 01:35:26	use_count:3	18609
+2022-06-10 01:35:26	before test_fiber resume again	18610
+2022-06-10 01:35:26	fiber status: 0	18609
+2022-06-10 01:35:26	after run_in_fiber yield	18610
+2022-06-10 01:35:26	before test_fiber resume again	18609
+2022-06-10 01:35:26	run_in_fiber end	18610
+2022-06-10 01:35:26	after run_in_fiber yield	18609
+2022-06-10 01:35:26	after test_fiber resume again	18610
+2022-06-10 01:35:26	run_in_fiber end	18609
+2022-06-10 01:35:26	use_count:1	18610
+2022-06-10 01:35:26	after test_fiber resume again	18609
+2022-06-10 01:35:26	fiber status: 2	18610
+2022-06-10 01:35:26	use_count:1	18609
+2022-06-10 01:35:26	run_in_fiber2 begin	18610
+2022-06-10 01:35:26	fiber status: 2	18609
+2022-06-10 01:35:26	run_in_fiber2 end	18610
+2022-06-10 01:35:26	run_in_fiber2 begin	18609
+2022-06-10 01:35:26	use_count:1	18610
+2022-06-10 01:35:26	run_in_fiber2 end	18609
+2022-06-10 01:35:26	test_fiber end	18610
+2022-06-10 01:35:26	use_count:1	18609
+2022-06-10 01:35:26	test_fiber end	18609
+2022-06-10 01:35:26	main end	18606
+2022-06-10 01:39:01	main begin	19714
+2022-06-10 01:39:01	test_fiber begin	19715
+2022-06-10 01:39:01	use_count:1	19715
+2022-06-10 01:39:01	before test_fiber resume	19715
+2022-06-10 01:39:01	run_in_fiber begin	19715
+2022-06-10 01:39:01	before run_in_fiber yield	19715
+2022-06-10 01:39:01	after test_fiber resume	19715
+2022-06-10 01:39:01	use_count:3	19715
+2022-06-10 01:39:01	fiber status: 0	19715
+2022-06-10 01:39:01	before test_fiber resume again	19715
+2022-06-10 01:39:01	after run_in_fiber yield	19715
+2022-06-10 01:39:01	run_in_fiber end	19715
+2022-06-10 01:39:01	after test_fiber resume again	19715
+2022-06-10 01:39:01	use_count:1	19715
+2022-06-10 01:39:01	fiber status: 2	19715
+2022-06-10 01:39:01	run_in_fiber2 begin	19715
+2022-06-10 01:39:01	run_in_fiber2 end	19715
+2022-06-10 01:39:01	use_count:1	19715
+2022-06-10 01:39:01	test_fiber end	19715
+2022-06-10 01:39:01	test_fiber begin	19716
+2022-06-10 01:39:01	use_count:1	19716
+2022-06-10 01:39:01	before test_fiber resume	19716
+2022-06-10 01:39:01	run_in_fiber begin	19716
+2022-06-10 01:39:01	before run_in_fiber yield	19716
+2022-06-10 01:39:01	after test_fiber resume	19716
+2022-06-10 01:39:01	use_count:3	19716
+2022-06-10 01:39:01	fiber status: 0	19716
+2022-06-10 01:39:01	before test_fiber resume again	19716
+2022-06-10 01:39:01	after run_in_fiber yield	19716
+2022-06-10 01:39:01	run_in_fiber end	19716
+2022-06-10 01:39:01	after test_fiber resume again	19716
+2022-06-10 01:39:01	use_count:1	19716
+2022-06-10 01:39:01	fiber status: 2	19716
+2022-06-10 01:39:01	run_in_fiber2 begin	19716
+2022-06-10 01:39:01	run_in_fiber2 end	19716
+2022-06-10 01:39:01	use_count:1	19716
+2022-06-10 01:39:01	test_fiber end	19716
+2022-06-10 01:39:01	main end	19714
+2022-06-10 01:39:07	fatal msg	19816
+2022-06-10 01:39:07	err msg	19816
+2022-06-10 01:39:07	info msg	19816
+2022-06-10 01:39:07	fatal tests/test_log.cpp:24	19816
+2022-06-10 01:39:07	err tests/test_log.cpp:25	19816
+2022-06-10 01:39:07	info tests/test_log.cpp:26	19816
+2022-06-10 01:39:08	fatal msg	19816
+2022-06-10 01:39:08	err msg	19816
+2022-06-10 01:39:08	fatal msg	19816
+2022-06-10 01:39:08	err msg	19816
+2022-06-10 01:39:08	logger config:- name: root
+  level: INFO
+  formatter: "%d%T%m%T%t%n"
+  appenders:
+    - type: FileLogAppender
+      file: ./logs/root.log
+    - type: StdoutLogAppender
+    - type: FileLogAppender
+      file: ./log.txt
+      level: DEBUG
+- name: system
+  level: DEBUG
+  formatter: "%d%T%m%T%t%n"
+  appenders:
+    - type: FileLogAppender
+      file: ./logs/system.log
+    - type: StdoutLogAppender
+- name: test
+  level: DEBUG
+  formatter: "%d - %m%n"
+  appenders:
+    - type: StdoutLogAppender
+    - type: FileLogAppender
+      file: ./logs/test.log
+- name: test_logger
+  level: WARN
+  formatter: "%d{%Y-%m-%d %H:%M:%S}%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+  appenders:
+    - type: StdoutLogAppender
+      level: DEBUG
+      formatter: "%d:%rms%T%p%T%c%T%f:%l %m%n"	19816
+2022-06-10 01:40:05	main begin	20152
+2022-06-10 01:40:05	test_fiber begin	20153
+2022-06-10 01:40:05	use_count:1	20153
+2022-06-10 01:40:05	before test_fiber resume	20153
+2022-06-10 01:40:05	run_in_fiber begin	20153
+2022-06-10 01:40:05	before run_in_fiber yield	20153
+2022-06-10 01:40:05	after test_fiber resume	20153
+2022-06-10 01:40:05	use_count:3	20153
+2022-06-10 01:40:05	fiber status: 0	20153
+2022-06-10 01:40:05	before test_fiber resume again	20153
+2022-06-10 01:40:05	after run_in_fiber yield	20153
+2022-06-10 01:40:05	run_in_fiber end	20153
+2022-06-10 01:40:05	after test_fiber resume again	20153
+2022-06-10 01:40:05	use_count:1	20153
+2022-06-10 01:40:05	fiber status: 2	20153
+2022-06-10 01:40:05	run_in_fiber2 begin	20153
+2022-06-10 01:40:05	run_in_fiber2 end	20153
+2022-06-10 01:40:05	use_count:1	20153
+2022-06-10 01:40:05	test_fiber end	20153
+2022-06-10 01:40:05	test_fiber begin	20154
+2022-06-10 01:40:05	use_count:1	20154
+2022-06-10 01:40:05	before test_fiber resume	20154
+2022-06-10 01:40:05	run_in_fiber begin	20154
+2022-06-10 01:40:05	before run_in_fiber yield	20154
+2022-06-10 01:40:05	after test_fiber resume	20154
+2022-06-10 01:40:05	use_count:3	20154
+2022-06-10 01:40:05	fiber status: 0	20154
+2022-06-10 01:40:05	before test_fiber resume again	20154
+2022-06-10 01:40:05	after run_in_fiber yield	20154
+2022-06-10 01:40:05	run_in_fiber end	20154
+2022-06-10 01:40:05	after test_fiber resume again	20154
+2022-06-10 01:40:05	use_count:1	20154
+2022-06-10 01:40:05	fiber status: 2	20154
+2022-06-10 01:40:05	run_in_fiber2 begin	20154
+2022-06-10 01:40:05	run_in_fiber2 end	20154
+2022-06-10 01:40:05	use_count:1	20154
+2022-06-10 01:40:05	test_fiber end	20154
+2022-06-10 01:40:05	main end	20152

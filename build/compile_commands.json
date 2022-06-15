@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/zhangy/Project/deepblue",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++   -I/home/zhangy/Project/deepblue/deepblue/include   -rdynamic -O3 -g -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function   -o CMakeFiles/test.dir/tests/test.cc.o -c /home/zhangy/Project/deepblue/tests/test.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -Ddeepblue_EXPORTS -I/home/zhangy/Project/deepblue/deepblue/include   -rdynamic -O3 -g -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -fPIC   -o CMakeFiles/deepblue.dir/deepblue/log.cc.o -c /home/zhangy/Project/deepblue/deepblue/log.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/log.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -Ddeepblue_EXPORTS -I/home/zhangy/Project/deepblue/deepblue/include   -rdynamic -O3 -g -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -fPIC   -o CMakeFiles/deepblue.dir/deepblue/util.cc.o -c /home/zhangy/Project/deepblue/deepblue/util.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/util.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -Ddeepblue_EXPORTS -I/home/zhangy/Project/deepblue/deepblue/include   -rdynamic -O3 -g -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -fPIC   -o CMakeFiles/deepblue.dir/deepblue/config.cc.o -c /home/zhangy/Project/deepblue/deepblue/config.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/config.cc"
+}
+]
