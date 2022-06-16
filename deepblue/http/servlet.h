@@ -24,8 +24,7 @@ namespace deepblue
             typedef std::shared_ptr<Servlet> ptr;
 
             // 构造函数
-            Servlet(const std::string &name)
-                : m_name(name) {}
+            Servlet(const std::string &name) : m_name(name) {}
 
             // 析构函数
             virtual ~Servlet() {}
@@ -35,7 +34,9 @@ namespace deepblue
             // response ：HTTP响应
             // session ：HTTP连接
             // 返回值：是否处理成功
-            virtual int32_t handle(deepblue::http::HttpRequest::ptr request, deepblue::http::HttpResponse::ptr response, deepblue::http::HttpSession::ptr session) = 0;
+            virtual int32_t handle(deepblue::http::HttpRequest::ptr request,
+                                   deepblue::http::HttpResponse::ptr response,
+                                   deepblue::http::HttpSession::ptr session) = 0;
 
             // 返回Servlet名称
             const std::string &getName() const { return m_name; }
@@ -52,12 +53,17 @@ namespace deepblue
             typedef std::shared_ptr<FunctionServlet> ptr;
 
             // 函数回调类型定义
-            typedef std::function<int32_t(deepblue::http::HttpRequest::ptr request, deepblue::http::HttpResponse::ptr response, deepblue::http::HttpSession::ptr session)> callback;
+            typedef std::function<int32_t(deepblue::http::HttpRequest::ptr request,
+                                          deepblue::http::HttpResponse::ptr response,
+                                          deepblue::http::HttpSession::ptr session)>
+                callback;
 
             // 构造函数
             FunctionServlet(callback cb);
 
-            virtual int32_t handle(deepblue::http::HttpRequest::ptr request, deepblue::http::HttpResponse::ptr response, deepblue::http::HttpSession::ptr session) override;
+            virtual int32_t handle(deepblue::http::HttpRequest::ptr request,
+                                   deepblue::http::HttpResponse::ptr response,
+                                   deepblue::http::HttpSession::ptr session) override;
 
         private:
             callback m_cb; // 回调函数
@@ -128,7 +134,10 @@ namespace deepblue
 
             // 构造函数
             ServletDispatch();
-            virtual int32_t handle(deepblue::http::HttpRequest::ptr request, deepblue::http::HttpResponse::ptr response, deepblue::http::HttpSession::ptr session) override;
+
+            virtual int32_t handle(deepblue::http::HttpRequest::ptr request,
+                                   deepblue::http::HttpResponse::ptr response,
+                                   deepblue::http::HttpSession::ptr session) override;
 
             // 添加servlet
             // uri： uri
@@ -151,6 +160,7 @@ namespace deepblue
             void addGlobServlet(const std::string &uri, FunctionServlet::callback cb);
 
             void addServletCreator(const std::string &uri, IServletCreator::ptr creator);
+
             void addGlobServletCreator(const std::string &uri, IServletCreator::ptr creator);
 
             template <class T>
@@ -214,7 +224,9 @@ namespace deepblue
             // 构造函数
             NotFoundServlet(const std::string &name);
 
-            virtual int32_t handle(deepblue::http::HttpRequest::ptr request, deepblue::http::HttpResponse::ptr response, deepblue::http::HttpSession::ptr session) override;
+            virtual int32_t handle(deepblue::http::HttpRequest::ptr request,
+                                   deepblue::http::HttpResponse::ptr response,
+                                   deepblue::http::HttpSession::ptr session) override;
 
         private:
             std::string m_name;

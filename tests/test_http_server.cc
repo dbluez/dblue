@@ -10,6 +10,22 @@ void run()
     {
         sleep(2);
     }
+
+    auto sd = server->getServletDispatch();
+    sd->addServlet("/dblue/v1", [](deepblue::http::HttpRequest::ptr req,
+                                   deepblue::http::HttpResponse::ptr rsp,
+                                   deepblue::http::HttpSession::ptr session)
+                   {
+                        rsp->setBody(req->toString());
+                        return 0; });
+
+    sd->addGlobServlet("/dblue/*", [](deepblue::http::HttpRequest::ptr req,
+                                      deepblue::http::HttpResponse::ptr rsp,
+                                      deepblue::http::HttpSession::ptr session)
+                       {
+                            rsp->setBody("Glob:\r\n" + req->toString());
+                            return 0; });
+
     server->start();
 }
 

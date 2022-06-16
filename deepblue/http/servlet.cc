@@ -11,7 +11,9 @@ namespace deepblue
         {
         }
 
-        int32_t FunctionServlet::handle(deepblue::http::HttpRequest::ptr request, deepblue::http::HttpResponse::ptr response, deepblue::http::HttpSession::ptr session)
+        int32_t FunctionServlet::handle(deepblue::http::HttpRequest::ptr request,
+                                        deepblue::http::HttpResponse::ptr response,
+                                        deepblue::http::HttpSession::ptr session)
         {
             return m_cb(request, response, session);
         }
@@ -22,7 +24,9 @@ namespace deepblue
             m_default.reset(new NotFoundServlet("deepblue/1.0"));
         }
 
-        int32_t ServletDispatch::handle(deepblue::http::HttpRequest::ptr request, deepblue::http::HttpResponse::ptr response, deepblue::http::HttpSession::ptr session)
+        int32_t ServletDispatch::handle(deepblue::http::HttpRequest::ptr request,
+                                        deepblue::http::HttpResponse::ptr response,
+                                        deepblue::http::HttpSession::ptr session)
         {
             auto slt = getMatchedServlet(request->getPath());
             if (slt)
@@ -69,8 +73,7 @@ namespace deepblue
         void ServletDispatch::addGlobServlet(const std::string &uri, Servlet::ptr slt)
         {
             RWMutexType::WriteLock lock(m_mutex);
-            for (auto it = m_globs.begin();
-                 it != m_globs.end(); ++it)
+            for (auto it = m_globs.begin(); it != m_globs.end(); ++it)
             {
                 if (it->first == uri)
                 {
@@ -95,8 +98,7 @@ namespace deepblue
         void ServletDispatch::delGlobServlet(const std::string &uri)
         {
             RWMutexType::WriteLock lock(m_mutex);
-            for (auto it = m_globs.begin();
-                 it != m_globs.end(); ++it)
+            for (auto it = m_globs.begin(); it != m_globs.end(); ++it)
             {
                 if (it->first == uri)
                 {
@@ -116,8 +118,7 @@ namespace deepblue
         Servlet::ptr ServletDispatch::getGlobServlet(const std::string &uri)
         {
             RWMutexType::ReadLock lock(m_mutex);
-            for (auto it = m_globs.begin();
-                 it != m_globs.end(); ++it)
+            for (auto it = m_globs.begin(); it != m_globs.end(); ++it)
             {
                 if (it->first == uri)
                 {
@@ -135,8 +136,7 @@ namespace deepblue
             {
                 return mit->second->get();
             }
-            for (auto it = m_globs.begin();
-                 it != m_globs.end(); ++it)
+            for (auto it = m_globs.begin(); it != m_globs.end(); ++it)
             {
                 if (!fnmatch(it->first.c_str(), uri.c_str(), 0))
                 {
