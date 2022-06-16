@@ -5,6 +5,7 @@ CMakeFiles/echo_server.dir/examples/echo_server.cc.o
  /home/zhangy/Project/deepblue/examples/echo_server.cc
  deepblue/http/./thirdparty/http_parser.h
  deepblue/http/http.h
+ deepblue/http/http_connection.h
  deepblue/http/http_parser.h
  deepblue/http/http_server.h
  deepblue/http/http_session.h
@@ -29,5 +30,6 @@ CMakeFiles/echo_server.dir/examples/echo_server.cc.o
  deepblue/include/tcp_server.h
  deepblue/include/thread.h
  deepblue/include/timer.h
+ deepblue/include/uri.h
  deepblue/include/util.h
  deepblue/streams/socket_stream.h

@@ -36,6 +36,18 @@ string
 vector
 -
 
+deepblue/http/http_connection.h
+../streams/socket_stream.h
+deepblue/streams/socket_stream.h
+http.h
+deepblue/http/http.h
+thread.h
+deepblue/http/thread.h
+uri.h
+deepblue/http/uri.h
+list
+-
+
 deepblue/http/http_parser.h
 http.h
 deepblue/http/http.h
@@ -191,6 +203,10 @@ deepblue/http/http_session.h
 deepblue/http/http_server.h
 tcp_server.h
 deepblue/include/tcp_server.h
+uri.h
+deepblue/include/uri.h
+../http/http_connection.h
+deepblue/http/http_connection.h
 
 deepblue/include/env.h
 singleton.h
@@ -365,6 +381,16 @@ set
 -
 thread.h
 deepblue/include/thread.h
+
+deepblue/include/uri.h
+address.h
+deepblue/include/address.h
+memory
+-
+stdint.h
+-
+string
+-
 
 deepblue/include/util.h
 sys/types.h

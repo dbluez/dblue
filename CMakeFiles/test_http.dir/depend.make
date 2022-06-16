@@ -4,6 +4,7 @@
 CMakeFiles/test_http.dir/tests/test_http.cc.o: tests/test_http.cc
 CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/http/./thirdparty/http_parser.h
 CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/http/http.h
+CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/http/http_connection.h
 CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/http/http_parser.h
 CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/http/http_server.h
 CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/http/http_session.h
@@ -28,6 +29,7 @@ CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/include/stream.h
 CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/include/tcp_server.h
 CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/include/thread.h
 CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/include/timer.h
+CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/include/uri.h
 CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/include/util.h
 CMakeFiles/test_http.dir/tests/test_http.cc.o: deepblue/streams/socket_stream.h
 

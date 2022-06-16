@@ -4,6 +4,7 @@
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: examples/echo_server.cc
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/http/./thirdparty/http_parser.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/http/http.h
+CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/http/http_connection.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/http/http_parser.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/http/http_server.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/http/http_session.h
@@ -28,6 +29,7 @@ CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/stream.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/tcp_server.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/thread.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/timer.h
+CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/uri.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/util.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/streams/socket_stream.h
 

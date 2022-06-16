@@ -85,6 +85,28 @@ CMakeFiles/deepblue.dir/deepblue/http/http.cc.o
  /home/zhangy/Project/deepblue/deepblue/http/http.cc
  /home/zhangy/Project/deepblue/deepblue/http/http.h
  deepblue/include/util.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o
+ /home/zhangy/Project/deepblue/deepblue/http/./thirdparty/http_parser.h
+ /home/zhangy/Project/deepblue/deepblue/http/http.h
+ /home/zhangy/Project/deepblue/deepblue/http/http_connection.cc
+ /home/zhangy/Project/deepblue/deepblue/http/http_connection.h
+ /home/zhangy/Project/deepblue/deepblue/http/http_parser.h
+ /home/zhangy/Project/deepblue/deepblue/streams/socket_stream.h
+ deepblue/include/address.h
+ deepblue/include/bytearray.h
+ deepblue/include/fiber.h
+ deepblue/include/iomanager.h
+ deepblue/include/log.h
+ deepblue/include/mutex.h
+ deepblue/include/noncopyable.h
+ deepblue/include/scheduler.h
+ deepblue/include/singleton.h
+ deepblue/include/socket.h
+ deepblue/include/stream.h
+ deepblue/include/thread.h
+ deepblue/include/timer.h
+ deepblue/include/uri.h
+ deepblue/include/util.h
 CMakeFiles/deepblue.dir/deepblue/http/http_parser.cc.o
  /home/zhangy/Project/deepblue/deepblue/http/./thirdparty/http_parser.h
  /home/zhangy/Project/deepblue/deepblue/http/http.h
@@ -272,6 +294,13 @@ CMakeFiles/deepblue.dir/deepblue/timer.cc.o
  deepblue/include/thread.h
  deepblue/include/timer.h
  deepblue/include/util.h
+CMakeFiles/deepblue.dir/deepblue/uri.cc.o
+ /home/zhangy/Project/deepblue/deepblue/http/./thirdparty/http_parser.h
+ /home/zhangy/Project/deepblue/deepblue/http/http.h
+ /home/zhangy/Project/deepblue/deepblue/http/http_parser.h
+ /home/zhangy/Project/deepblue/deepblue/uri.cc
+ deepblue/include/address.h
+ deepblue/include/uri.h
 CMakeFiles/deepblue.dir/deepblue/util.cpp.o
  /home/zhangy/Project/deepblue/deepblue/util.cpp
  deepblue/include/fiber.h

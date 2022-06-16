@@ -372,6 +372,32 @@ CMakeFiles/deepblue.dir/deepblue/http/servlet.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/deepblue.dir/deepblue/http/servlet.cc.s"
 	/opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"deepblue/http/servlet.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhangy/Project/deepblue/deepblue/http/servlet.cc -o CMakeFiles/deepblue.dir/deepblue/http/servlet.cc.s
 
+CMakeFiles/deepblue.dir/deepblue/uri.cc.o: CMakeFiles/deepblue.dir/flags.make
+CMakeFiles/deepblue.dir/deepblue/uri.cc.o: deepblue/uri.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhangy/Project/deepblue/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/deepblue.dir/deepblue/uri.cc.o"
+	/opt/rh/devtoolset-9/root/usr/bin/c++  $(CXX_DEFINES) -D__FILE__=\"deepblue/uri.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/deepblue.dir/deepblue/uri.cc.o -c /home/zhangy/Project/deepblue/deepblue/uri.cc
+
+CMakeFiles/deepblue.dir/deepblue/uri.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/deepblue.dir/deepblue/uri.cc.i"
+	/opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"deepblue/uri.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhangy/Project/deepblue/deepblue/uri.cc > CMakeFiles/deepblue.dir/deepblue/uri.cc.i
+
+CMakeFiles/deepblue.dir/deepblue/uri.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/deepblue.dir/deepblue/uri.cc.s"
+	/opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"deepblue/uri.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhangy/Project/deepblue/deepblue/uri.cc -o CMakeFiles/deepblue.dir/deepblue/uri.cc.s
+
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: CMakeFiles/deepblue.dir/flags.make
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/http/http_connection.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhangy/Project/deepblue/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o"
+	/opt/rh/devtoolset-9/root/usr/bin/c++  $(CXX_DEFINES) -D__FILE__=\"deepblue/http/http_connection.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o -c /home/zhangy/Project/deepblue/deepblue/http/http_connection.cc
+
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.i"
+	/opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"deepblue/http/http_connection.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhangy/Project/deepblue/deepblue/http/http_connection.cc > CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.i
+
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.s"
+	/opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"deepblue/http/http_connection.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhangy/Project/deepblue/deepblue/http/http_connection.cc -o CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.s
+
 # Object files for target deepblue
 deepblue_OBJECTS = \
 "CMakeFiles/deepblue.dir/deepblue/log.cc.o" \
@@ -397,7 +423,9 @@ deepblue_OBJECTS = \
 "CMakeFiles/deepblue.dir/deepblue/streams/socket_stream.cc.o" \
 "CMakeFiles/deepblue.dir/deepblue/http/http_session.cc.o" \
 "CMakeFiles/deepblue.dir/deepblue/http/http_server.cc.o" \
-"CMakeFiles/deepblue.dir/deepblue/http/servlet.cc.o"
+"CMakeFiles/deepblue.dir/deepblue/http/servlet.cc.o" \
+"CMakeFiles/deepblue.dir/deepblue/uri.cc.o" \
+"CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o"
 
 # External object files for target deepblue
 deepblue_EXTERNAL_OBJECTS =
@@ -426,9 +454,11 @@ lib/libdeepblue.so: CMakeFiles/deepblue.dir/deepblue/streams/socket_stream.cc.o
 lib/libdeepblue.so: CMakeFiles/deepblue.dir/deepblue/http/http_session.cc.o
 lib/libdeepblue.so: CMakeFiles/deepblue.dir/deepblue/http/http_server.cc.o
 lib/libdeepblue.so: CMakeFiles/deepblue.dir/deepblue/http/servlet.cc.o
+lib/libdeepblue.so: CMakeFiles/deepblue.dir/deepblue/uri.cc.o
+lib/libdeepblue.so: CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o
 lib/libdeepblue.so: CMakeFiles/deepblue.dir/build.make
 lib/libdeepblue.so: CMakeFiles/deepblue.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhangy/Project/deepblue/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX shared library lib/libdeepblue.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhangy/Project/deepblue/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX shared library lib/libdeepblue.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/deepblue.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

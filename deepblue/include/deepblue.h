@@ -25,5 +25,7 @@
 #include "../http/http_session.h"
 #include "../http/http_server.h"
 #include "tcp_server.h"
+#include "uri.h"
+#include "../http/http_connection.h"
 
 #endif

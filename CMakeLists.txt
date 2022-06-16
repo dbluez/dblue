@@ -52,6 +52,8 @@ set(LIB_SRC
     deepblue/http/http_session.cc
     deepblue/http/http_server.cc
     deepblue/http/servlet.cc
+    deepblue/uri.cc
+    deepblue/http/http_connection.cc
     )
 
 set(LIBS

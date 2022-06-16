@@ -63,3 +63,7 @@ CXX_INCLUDES = -I/home/zhangy/Project/deepblue/deepblue/include
 
 # Custom defines: CMakeFiles/deepblue.dir/deepblue/http/servlet.cc.o_DEFINES = __FILE__="deepblue/http/servlet.cc"
 
+# Custom defines: CMakeFiles/deepblue.dir/deepblue/uri.cc.o_DEFINES = __FILE__="deepblue/uri.cc"
+
+# Custom defines: CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o_DEFINES = __FILE__="deepblue/http/http_connection.cc"
+

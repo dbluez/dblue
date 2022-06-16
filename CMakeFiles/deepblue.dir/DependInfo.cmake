@@ -27,6 +27,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zhangy/Project/deepblue/deepblue/fiber.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/fiber.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/hook.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/hook.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/http/http.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/http/http.cc.o"
+  "/home/zhangy/Project/deepblue/deepblue/http/http_connection.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/http/http_parser.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/http/http_parser.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/http/http_server.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/http/http_server.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/http/http_session.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/http/http_session.cc.o"
@@ -41,6 +42,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zhangy/Project/deepblue/deepblue/tcp_server.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/tcp_server.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/thread.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/thread.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/timer.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/timer.cc.o"
+  "/home/zhangy/Project/deepblue/deepblue/uri.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/uri.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/util.cpp" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/util.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

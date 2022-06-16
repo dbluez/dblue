@@ -85,6 +85,28 @@ CMakeFiles/deepblue.dir/deepblue/http/http.cc.o: deepblue/http/http.cc
 CMakeFiles/deepblue.dir/deepblue/http/http.cc.o: deepblue/http/http.h
 CMakeFiles/deepblue.dir/deepblue/http/http.cc.o: deepblue/include/util.h
 
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/http/./thirdparty/http_parser.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/http/http.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/http/http_connection.cc
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/http/http_connection.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/http/http_parser.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/streams/socket_stream.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/address.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/bytearray.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/fiber.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/iomanager.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/log.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/mutex.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/noncopyable.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/scheduler.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/singleton.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/socket.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/stream.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/thread.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/timer.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/uri.h
+CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o: deepblue/include/util.h
+
 CMakeFiles/deepblue.dir/deepblue/http/http_parser.cc.o: deepblue/http/./thirdparty/http_parser.h
 CMakeFiles/deepblue.dir/deepblue/http/http_parser.cc.o: deepblue/http/http.h
 CMakeFiles/deepblue.dir/deepblue/http/http_parser.cc.o: deepblue/http/http_parser.cc
@@ -271,6 +293,13 @@ CMakeFiles/deepblue.dir/deepblue/timer.cc.o: deepblue/include/noncopyable.h
 CMakeFiles/deepblue.dir/deepblue/timer.cc.o: deepblue/include/thread.h
 CMakeFiles/deepblue.dir/deepblue/timer.cc.o: deepblue/include/timer.h
 CMakeFiles/deepblue.dir/deepblue/timer.cc.o: deepblue/include/util.h
+
+CMakeFiles/deepblue.dir/deepblue/uri.cc.o: deepblue/http/./thirdparty/http_parser.h
+CMakeFiles/deepblue.dir/deepblue/uri.cc.o: deepblue/http/http.h
+CMakeFiles/deepblue.dir/deepblue/uri.cc.o: deepblue/http/http_parser.h
+CMakeFiles/deepblue.dir/deepblue/uri.cc.o: deepblue/uri.cc
+CMakeFiles/deepblue.dir/deepblue/uri.cc.o: deepblue/include/address.h
+CMakeFiles/deepblue.dir/deepblue/uri.cc.o: deepblue/include/uri.h
 
 CMakeFiles/deepblue.dir/deepblue/util.cpp.o: deepblue/util.cpp
 CMakeFiles/deepblue.dir/deepblue/util.cpp.o: deepblue/include/fiber.h

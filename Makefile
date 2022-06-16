@@ -563,6 +563,33 @@ deepblue/http/http.cc.s:
 	$(MAKE) -f CMakeFiles/deepblue.dir/build.make CMakeFiles/deepblue.dir/deepblue/http/http.cc.s
 .PHONY : deepblue/http/http.cc.s
 
+deepblue/http/http_connection.o: deepblue/http/http_connection.cc.o
+
+.PHONY : deepblue/http/http_connection.o
+
+# target to build an object file
+deepblue/http/http_connection.cc.o:
+	$(MAKE) -f CMakeFiles/deepblue.dir/build.make CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o
+.PHONY : deepblue/http/http_connection.cc.o
+
+deepblue/http/http_connection.i: deepblue/http/http_connection.cc.i
+
+.PHONY : deepblue/http/http_connection.i
+
+# target to preprocess a source file
+deepblue/http/http_connection.cc.i:
+	$(MAKE) -f CMakeFiles/deepblue.dir/build.make CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.i
+.PHONY : deepblue/http/http_connection.cc.i
+
+deepblue/http/http_connection.s: deepblue/http/http_connection.cc.s
+
+.PHONY : deepblue/http/http_connection.s
+
+# target to generate assembly for a file
+deepblue/http/http_connection.cc.s:
+	$(MAKE) -f CMakeFiles/deepblue.dir/build.make CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.s
+.PHONY : deepblue/http/http_connection.cc.s
+
 deepblue/http/http_parser.o: deepblue/http/http_parser.cc.o
 
 .PHONY : deepblue/http/http_parser.o
@@ -967,6 +994,33 @@ deepblue/timer.s: deepblue/timer.cc.s
 deepblue/timer.cc.s:
 	$(MAKE) -f CMakeFiles/deepblue.dir/build.make CMakeFiles/deepblue.dir/deepblue/timer.cc.s
 .PHONY : deepblue/timer.cc.s
+
+deepblue/uri.o: deepblue/uri.cc.o
+
+.PHONY : deepblue/uri.o
+
+# target to build an object file
+deepblue/uri.cc.o:
+	$(MAKE) -f CMakeFiles/deepblue.dir/build.make CMakeFiles/deepblue.dir/deepblue/uri.cc.o
+.PHONY : deepblue/uri.cc.o
+
+deepblue/uri.i: deepblue/uri.cc.i
+
+.PHONY : deepblue/uri.i
+
+# target to preprocess a source file
+deepblue/uri.cc.i:
+	$(MAKE) -f CMakeFiles/deepblue.dir/build.make CMakeFiles/deepblue.dir/deepblue/uri.cc.i
+.PHONY : deepblue/uri.cc.i
+
+deepblue/uri.s: deepblue/uri.cc.s
+
+.PHONY : deepblue/uri.s
+
+# target to generate assembly for a file
+deepblue/uri.cc.s:
+	$(MAKE) -f CMakeFiles/deepblue.dir/build.make CMakeFiles/deepblue.dir/deepblue/uri.cc.s
+.PHONY : deepblue/uri.cc.s
 
 deepblue/util.o: deepblue/util.cpp.o
 
@@ -1504,6 +1558,9 @@ help:
 	@echo "... deepblue/http/http.o"
 	@echo "... deepblue/http/http.i"
 	@echo "... deepblue/http/http.s"
+	@echo "... deepblue/http/http_connection.o"
+	@echo "... deepblue/http/http_connection.i"
+	@echo "... deepblue/http/http_connection.s"
 	@echo "... deepblue/http/http_parser.o"
 	@echo "... deepblue/http/http_parser.i"
 	@echo "... deepblue/http/http_parser.s"
@@ -1549,6 +1606,9 @@ help:
 	@echo "... deepblue/timer.o"
 	@echo "... deepblue/timer.i"
 	@echo "... deepblue/timer.s"
+	@echo "... deepblue/uri.o"
+	@echo "... deepblue/uri.i"
+	@echo "... deepblue/uri.s"
 	@echo "... deepblue/util.o"
 	@echo "... deepblue/util.i"
 	@echo "... deepblue/util.s"
