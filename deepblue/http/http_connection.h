@@ -145,7 +145,12 @@ namespace deepblue
             // max_size: 暂未使用
             // max_alive_time: 单个连接的最大存活时间
             // max_request: 单个连接可复用的最大次数
-            HttpConnectionPool(const std::string &host, const std::string &vhost, uint32_t port, uint32_t max_size, uint32_t max_alive_time, uint32_t max_request);
+            HttpConnectionPool(const std::string &host,
+                               const std::string &vhost,
+                               uint32_t port,
+                               uint32_t max_size,
+                               uint32_t max_alive_time,
+                               uint32_t max_request);
 
             // 从请求池中获取一个连接
             // 如果没有可用的连接，则会新建一个连接并加入到池，

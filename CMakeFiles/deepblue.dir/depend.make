@@ -34,6 +34,16 @@ CMakeFiles/deepblue.dir/deepblue/config.cc.o: deepblue/include/singleton.h
 CMakeFiles/deepblue.dir/deepblue/config.cc.o: deepblue/include/thread.h
 CMakeFiles/deepblue.dir/deepblue/config.cc.o: deepblue/include/util.h
 
+CMakeFiles/deepblue.dir/deepblue/daemon.cc.o: deepblue/daemon.cc
+CMakeFiles/deepblue.dir/deepblue/daemon.cc.o: deepblue/include/config.h
+CMakeFiles/deepblue.dir/deepblue/daemon.cc.o: deepblue/include/daemon.h
+CMakeFiles/deepblue.dir/deepblue/daemon.cc.o: deepblue/include/log.h
+CMakeFiles/deepblue.dir/deepblue/daemon.cc.o: deepblue/include/mutex.h
+CMakeFiles/deepblue.dir/deepblue/daemon.cc.o: deepblue/include/noncopyable.h
+CMakeFiles/deepblue.dir/deepblue/daemon.cc.o: deepblue/include/singleton.h
+CMakeFiles/deepblue.dir/deepblue/daemon.cc.o: deepblue/include/thread.h
+CMakeFiles/deepblue.dir/deepblue/daemon.cc.o: deepblue/include/util.h
+
 CMakeFiles/deepblue.dir/deepblue/env.cc.o: deepblue/env.cc
 CMakeFiles/deepblue.dir/deepblue/env.cc.o: deepblue/include/config.h
 CMakeFiles/deepblue.dir/deepblue/env.cc.o: deepblue/include/env.h

@@ -12,6 +12,7 @@ CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/http/servlet.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/address.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/bytearray.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/config.h
+CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/daemon.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/deepblue.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/env.h
 CMakeFiles/echo_server.dir/examples/echo_server.cc.o: deepblue/include/fd_manager.h

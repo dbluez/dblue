@@ -27,5 +27,6 @@
 #include "tcp_server.h"
 #include "uri.h"
 #include "../http/http_connection.h"
+#include "daemon.h"
 
 #endif

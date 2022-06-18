@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhangy/Project/deepblue/tests/test_uri.cc
+uri.h
+/home/zhangy/Project/deepblue/tests/uri.h
+iostream
+-
+
+deepblue/include/address.h
+arpa/inet.h
+-
+iostream
+-
+map
+-
+memory
+-
+string
+-
+sys/socket.h
+-
+sys/types.h
+-
+sys/un.h
+-
+unistd.h
+-
+vector
+-
+
+deepblue/include/uri.h
+address.h
+deepblue/include/address.h
+memory
+-
+stdint.h
+-
+string
+-
+

@@ -170,6 +170,14 @@ deepblue/include/log.h
 util.h
 deepblue/include/util.h
 
+deepblue/include/daemon.h
+singleton.h
+deepblue/include/singleton.h
+functional
+-
+unistd.h
+-
+
 deepblue/include/deepblue.h
 log.h
 deepblue/include/log.h
@@ -223,6 +231,8 @@ uri.h
 deepblue/include/uri.h
 ../http/http_connection.h
 deepblue/http/http_connection.h
+daemon.h
+deepblue/include/daemon.h
 
 deepblue/include/env.h
 singleton.h

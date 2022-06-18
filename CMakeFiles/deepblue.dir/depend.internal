@@ -34,6 +34,16 @@ CMakeFiles/deepblue.dir/deepblue/config.cc.o
  deepblue/include/singleton.h
  deepblue/include/thread.h
  deepblue/include/util.h
+CMakeFiles/deepblue.dir/deepblue/daemon.cc.o
+ /home/zhangy/Project/deepblue/deepblue/daemon.cc
+ deepblue/include/config.h
+ deepblue/include/daemon.h
+ deepblue/include/log.h
+ deepblue/include/mutex.h
+ deepblue/include/noncopyable.h
+ deepblue/include/singleton.h
+ deepblue/include/thread.h
+ deepblue/include/util.h
 CMakeFiles/deepblue.dir/deepblue/env.cc.o
  /home/zhangy/Project/deepblue/deepblue/env.cc
  deepblue/include/config.h

@@ -22,6 +22,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zhangy/Project/deepblue/deepblue/address.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/address.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/bytearray.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/bytearray.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/config.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/config.cc.o"
+  "/home/zhangy/Project/deepblue/deepblue/daemon.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/daemon.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/env.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/env.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/fd_manager.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/fd_manager.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/fiber.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/fiber.cc.o"

@@ -12,6 +12,7 @@ CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o: deepblue/http/servlet.h
 CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o: deepblue/include/address.h
 CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o: deepblue/include/bytearray.h
 CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o: deepblue/include/config.h
+CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o: deepblue/include/daemon.h
 CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o: deepblue/include/deepblue.h
 CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o: deepblue/include/env.h
 CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o: deepblue/include/fd_manager.h

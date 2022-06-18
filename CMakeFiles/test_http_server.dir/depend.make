@@ -12,6 +12,7 @@ CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o: deepblue/http/servl
 CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o: deepblue/include/address.h
 CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o: deepblue/include/bytearray.h
 CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o: deepblue/include/config.h
+CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o: deepblue/include/daemon.h
 CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o: deepblue/include/deepblue.h
 CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o: deepblue/include/env.h
 CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o: deepblue/include/fd_manager.h

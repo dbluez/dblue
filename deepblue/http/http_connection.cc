@@ -338,7 +338,8 @@ namespace deepblue
                                             HttpConnectionPool *pool)
         {
             ++ptr->m_request;
-            if (!ptr->isConnected() || ((ptr->m_createTime + pool->m_maxAliveTime) >= deepblue::GetCurrentMS()) || (ptr->m_request >= pool->m_maxRequest))
+            if (!ptr->isConnected() ||
+                ((ptr->m_createTime + pool->m_maxAliveTime) >= deepblue::GetCurrentMS()) || (ptr->m_request >= pool->m_maxRequest))
             {
                 delete ptr;
                 --pool->m_total;
@@ -432,7 +433,7 @@ namespace deepblue
             HttpRequest::ptr req = std::make_shared<HttpRequest>();
             req->setPath(url);
             req->setMethod(method);
-            // req->setClose(false);
+            req->setClose(false);
             bool has_host = false;
             for (auto &i : headers)
             {

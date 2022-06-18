@@ -71,7 +71,7 @@ namespace deepblue
             // 构造函数
             HttpResponseParser();
 
-            // 解析HTTP响应协议  data:协议数据内存, len:协议数据内存大小, chunck:是否在解析chunck
+            // 解析HTTP响应协议  data:协议数据内存, len:协议数据内存大小
             // (返回实际解析的长度, 并且将已解析的数据移除)
             size_t execute(char *data, size_t len);
 
