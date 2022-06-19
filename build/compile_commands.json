@@ -1,22 +1,257 @@
 [
 {
-  "directory": "/home/zhangy/Project/deepblue",
-  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++   -I/home/zhangy/Project/deepblue/deepblue/include   -rdynamic -O3 -g -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function   -o CMakeFiles/test.dir/tests/test.cc.o -c /home/zhangy/Project/deepblue/tests/test.cc",
-  "file": "/home/zhangy/Project/deepblue/tests/test.cc"
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_scheduler.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o -c /home/zhangy/Project/deepblue/tests/test_scheduler.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_scheduler.cc"
 },
 {
-  "directory": "/home/zhangy/Project/deepblue",
-  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -Ddeepblue_EXPORTS -I/home/zhangy/Project/deepblue/deepblue/include   -rdynamic -O3 -g -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -fPIC   -o CMakeFiles/deepblue.dir/deepblue/log.cc.o -c /home/zhangy/Project/deepblue/deepblue/log.cc",
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"workbench/my_http_server.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/my_http_server.dir/workbench/my_http_server.cc.o -c /home/zhangy/Project/deepblue/workbench/my_http_server.cc",
+  "file": "/home/zhangy/Project/deepblue/workbench/my_http_server.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_fiber.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o -c /home/zhangy/Project/deepblue/tests/test_fiber.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_fiber.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_http_connection.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_http_connection.dir/tests/test_http_connection.cc.o -c /home/zhangy/Project/deepblue/tests/test_http_connection.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_http_connection.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_hook.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_hook.dir/tests/test_hook.cc.o -c /home/zhangy/Project/deepblue/tests/test_hook.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_hook.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_node.dir/tests/test_node.cc.o -c /home/zhangy/Project/deepblue/tests/test_node.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_node.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_env.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_env.dir/tests/test_env.cc.o -c /home/zhangy/Project/deepblue/tests/test_env.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_env.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_util.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_util.dir/tests/test_util.cc.o -c /home/zhangy/Project/deepblue/tests/test_util.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_util.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"examples/echo_server.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/echo_server.dir/examples/echo_server.cc.o -c /home/zhangy/Project/deepblue/examples/echo_server.cc",
+  "file": "/home/zhangy/Project/deepblue/examples/echo_server.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_application.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_application.dir/tests/test_application.cc.o -c /home/zhangy/Project/deepblue/tests/test_application.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_application.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_http_server.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o -c /home/zhangy/Project/deepblue/tests/test_http_server.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_http_server.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_address.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_address.dir/tests/test_address.cc.o -c /home/zhangy/Project/deepblue/tests/test_address.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_address.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_iomanager.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o -c /home/zhangy/Project/deepblue/tests/test_iomanager.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_iomanager.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/log.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/log.cc.o -c /home/zhangy/Project/deepblue/deepblue/log.cc",
   "file": "/home/zhangy/Project/deepblue/deepblue/log.cc"
 },
 {
-  "directory": "/home/zhangy/Project/deepblue",
-  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -Ddeepblue_EXPORTS -I/home/zhangy/Project/deepblue/deepblue/include   -rdynamic -O3 -g -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -fPIC   -o CMakeFiles/deepblue.dir/deepblue/util.cc.o -c /home/zhangy/Project/deepblue/deepblue/util.cc",
-  "file": "/home/zhangy/Project/deepblue/deepblue/util.cc"
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/env.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/env.cc.o -c /home/zhangy/Project/deepblue/deepblue/env.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/env.cc"
 },
 {
-  "directory": "/home/zhangy/Project/deepblue",
-  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -Ddeepblue_EXPORTS -I/home/zhangy/Project/deepblue/deepblue/include   -rdynamic -O3 -g -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -fPIC   -o CMakeFiles/deepblue.dir/deepblue/config.cc.o -c /home/zhangy/Project/deepblue/deepblue/config.cc",
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/config.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/config.cc.o -c /home/zhangy/Project/deepblue/deepblue/config.cc",
   "file": "/home/zhangy/Project/deepblue/deepblue/config.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/util.cpp\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/util.cpp.o -c /home/zhangy/Project/deepblue/deepblue/util.cpp",
+  "file": "/home/zhangy/Project/deepblue/deepblue/util.cpp"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/thread.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/thread.cc.o -c /home/zhangy/Project/deepblue/deepblue/thread.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/thread.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/mutex.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/mutex.cc.o -c /home/zhangy/Project/deepblue/deepblue/mutex.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/mutex.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/fiber.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/fiber.cc.o -c /home/zhangy/Project/deepblue/deepblue/fiber.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/fiber.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/scheduler.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/scheduler.cc.o -c /home/zhangy/Project/deepblue/deepblue/scheduler.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/scheduler.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/iomanager.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/iomanager.cc.o -c /home/zhangy/Project/deepblue/deepblue/iomanager.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/iomanager.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/timer.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/timer.cc.o -c /home/zhangy/Project/deepblue/deepblue/timer.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/timer.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/fd_manager.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/fd_manager.cc.o -c /home/zhangy/Project/deepblue/deepblue/fd_manager.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/fd_manager.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/hook.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/hook.cc.o -c /home/zhangy/Project/deepblue/deepblue/hook.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/hook.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/address.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/address.cc.o -c /home/zhangy/Project/deepblue/deepblue/address.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/address.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/socket.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/socket.cc.o -c /home/zhangy/Project/deepblue/deepblue/socket.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/socket.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/bytearray.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/bytearray.cc.o -c /home/zhangy/Project/deepblue/deepblue/bytearray.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/bytearray.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/gcc -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/http/thirdparty/http_parser.c\\\" -I/home/zhangy/Project/deepblue/deepblue/include  -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/http/thirdparty/http_parser.c.o   -c /home/zhangy/Project/deepblue/deepblue/http/thirdparty/http_parser.c",
+  "file": "/home/zhangy/Project/deepblue/deepblue/http/thirdparty/http_parser.c"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/http/http.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/http/http.cc.o -c /home/zhangy/Project/deepblue/deepblue/http/http.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/http/http.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/http/http_parser.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/http/http_parser.cc.o -c /home/zhangy/Project/deepblue/deepblue/http/http_parser.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/http/http_parser.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/tcp_server.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/tcp_server.cc.o -c /home/zhangy/Project/deepblue/deepblue/tcp_server.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/tcp_server.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/stream.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/stream.cc.o -c /home/zhangy/Project/deepblue/deepblue/stream.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/stream.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/streams/socket_stream.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/streams/socket_stream.cc.o -c /home/zhangy/Project/deepblue/deepblue/streams/socket_stream.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/streams/socket_stream.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/http/http_session.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/http/http_session.cc.o -c /home/zhangy/Project/deepblue/deepblue/http/http_session.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/http/http_session.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/http/http_server.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/http/http_server.cc.o -c /home/zhangy/Project/deepblue/deepblue/http/http_server.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/http/http_server.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/http/servlet.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/http/servlet.cc.o -c /home/zhangy/Project/deepblue/deepblue/http/servlet.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/http/servlet.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/uri.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/uri.cc.o -c /home/zhangy/Project/deepblue/deepblue/uri.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/uri.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/http/http_connection.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o -c /home/zhangy/Project/deepblue/deepblue/http/http_connection.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/http/http_connection.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/daemon.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/daemon.cc.o -c /home/zhangy/Project/deepblue/deepblue/daemon.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/daemon.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -Ddeepblue_EXPORTS -D__FILE__=\\\"deepblue/application.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC   -o CMakeFiles/deepblue.dir/deepblue/application.cc.o -c /home/zhangy/Project/deepblue/deepblue/application.cc",
+  "file": "/home/zhangy/Project/deepblue/deepblue/application.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_thread.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_thread.dir/tests/test_thread.cc.o -c /home/zhangy/Project/deepblue/tests/test_thread.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_thread.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_config.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_config.dir/tests/test_config.cc.o -c /home/zhangy/Project/deepblue/tests/test_config.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_config.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_socket.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_socket.dir/tests/test_socket.cc.o -c /home/zhangy/Project/deepblue/tests/test_socket.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_socket.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test.dir/tests/test.cc.o -c /home/zhangy/Project/deepblue/tests/test.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_http.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_http.dir/tests/test_http.cc.o -c /home/zhangy/Project/deepblue/tests/test_http.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_http.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_bytearray.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_bytearray.dir/tests/test_bytearray.cc.o -c /home/zhangy/Project/deepblue/tests/test_bytearray.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_bytearray.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_http_parser.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_http_parser.dir/tests/test_http_parser.cc.o -c /home/zhangy/Project/deepblue/tests/test_http_parser.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_http_parser.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_tcp_server.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_tcp_server.dir/tests/test_tcp_server.cc.o -c /home/zhangy/Project/deepblue/tests/test_tcp_server.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_tcp_server.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_uri.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_uri.dir/tests/test_uri.cc.o -c /home/zhangy/Project/deepblue/tests/test_uri.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_uri.cc"
+},
+{
+  "directory": "/home/zhangy/Project/deepblue/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -D__FILE__=\\\"tests/test_daemon.cc\\\" -I/home/zhangy/Project/deepblue/deepblue/include   -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g   -o CMakeFiles/test_daemon.dir/tests/test_daemon.cc.o -c /home/zhangy/Project/deepblue/tests/test_daemon.cc",
+  "file": "/home/zhangy/Project/deepblue/tests/test_daemon.cc"
 }
 ]

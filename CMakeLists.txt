@@ -55,6 +55,7 @@ set(LIB_SRC
     deepblue/uri.cc
     deepblue/http/http_connection.cc
     deepblue/daemon.cc
+    deepblue/application.cc
     )
 
 set(LIBS
@@ -171,6 +172,16 @@ add_executable(test_daemon tests/test_daemon.cc)
 add_dependencies (test_daemon deepblue)
 redefine_file_macro(test_daemon)
 target_link_libraries (test_daemon  ${LIBS})
+
+add_executable(test_env tests/test_env.cc)
+add_dependencies (test_env deepblue)
+redefine_file_macro(test_env)
+target_link_libraries (test_env  ${LIBS})
+
+add_executable(test_application tests/test_application.cc)
+add_dependencies (test_application deepblue)
+redefine_file_macro(test_application)
+target_link_libraries (test_application  ${LIBS})
 
 add_executable(test_node tests/test_node.cc)
 target_link_libraries (test_node ${YAMLCPP})

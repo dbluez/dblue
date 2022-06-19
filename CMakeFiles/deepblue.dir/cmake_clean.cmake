@@ -26,6 +26,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/deepblue.dir/deepblue/uri.cc.o"
   "CMakeFiles/deepblue.dir/deepblue/http/http_connection.cc.o"
   "CMakeFiles/deepblue.dir/deepblue/daemon.cc.o"
+  "CMakeFiles/deepblue.dir/deepblue/application.cc.o"
   "lib/libdeepblue.pdb"
   "lib/libdeepblue.so"
 )

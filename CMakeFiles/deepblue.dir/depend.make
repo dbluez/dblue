@@ -14,6 +14,33 @@ CMakeFiles/deepblue.dir/deepblue/address.cc.o: deepblue/include/singleton.h
 CMakeFiles/deepblue.dir/deepblue/address.cc.o: deepblue/include/thread.h
 CMakeFiles/deepblue.dir/deepblue/address.cc.o: deepblue/include/util.h
 
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/application.cc
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/http/./thirdparty/http_parser.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/http/http.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/http/http_server.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/http/http_session.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/http/servlet.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/address.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/application.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/bytearray.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/config.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/daemon.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/env.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/fiber.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/iomanager.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/log.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/mutex.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/noncopyable.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/scheduler.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/singleton.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/socket.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/stream.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/tcp_server.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/thread.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/timer.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/include/util.h
+CMakeFiles/deepblue.dir/deepblue/application.cc.o: deepblue/streams/socket_stream.h
+
 CMakeFiles/deepblue.dir/deepblue/bytearray.cc.o: deepblue/bytearray.cc
 CMakeFiles/deepblue.dir/deepblue/bytearray.cc.o: deepblue/endian.h
 CMakeFiles/deepblue.dir/deepblue/bytearray.cc.o: deepblue/include/bytearray.h

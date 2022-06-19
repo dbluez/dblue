@@ -3,13 +3,15 @@
 /home/zhangy/Project/deepblue/CMakeFiles/test_fiber.dir
 /home/zhangy/Project/deepblue/CMakeFiles/test_http_connection.dir
 /home/zhangy/Project/deepblue/CMakeFiles/test_hook.dir
+/home/zhangy/Project/deepblue/CMakeFiles/test_node.dir
+/home/zhangy/Project/deepblue/CMakeFiles/test_env.dir
+/home/zhangy/Project/deepblue/CMakeFiles/test_util.dir
 /home/zhangy/Project/deepblue/CMakeFiles/echo_server.dir
 /home/zhangy/Project/deepblue/CMakeFiles/edit_cache.dir
+/home/zhangy/Project/deepblue/CMakeFiles/test_application.dir
 /home/zhangy/Project/deepblue/CMakeFiles/test_http_server.dir
 /home/zhangy/Project/deepblue/CMakeFiles/test_address.dir
 /home/zhangy/Project/deepblue/CMakeFiles/test_iomanager.dir
-/home/zhangy/Project/deepblue/CMakeFiles/test_util.dir
-/home/zhangy/Project/deepblue/CMakeFiles/test_node.dir
 /home/zhangy/Project/deepblue/CMakeFiles/rebuild_cache.dir
 /home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir
 /home/zhangy/Project/deepblue/CMakeFiles/test_thread.dir

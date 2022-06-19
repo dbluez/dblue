@@ -69,3 +69,5 @@ CXX_INCLUDES = -I/home/zhangy/Project/deepblue/deepblue/include
 
 # Custom defines: CMakeFiles/deepblue.dir/deepblue/daemon.cc.o_DEFINES = __FILE__="deepblue/daemon.cc"
 
+# Custom defines: CMakeFiles/deepblue.dir/deepblue/application.cc.o_DEFINES = __FILE__="deepblue/application.cc"
+

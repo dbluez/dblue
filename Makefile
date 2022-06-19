@@ -179,6 +179,45 @@ test_hook/fast:
 .PHONY : test_hook/fast
 
 #=============================================================================
+# Target rules for targets named test_node
+
+# Build rule for target.
+test_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_node
+.PHONY : test_node
+
+# fast build rule for target.
+test_node/fast:
+	$(MAKE) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/build
+.PHONY : test_node/fast
+
+#=============================================================================
+# Target rules for targets named test_env
+
+# Build rule for target.
+test_env: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_env
+.PHONY : test_env
+
+# fast build rule for target.
+test_env/fast:
+	$(MAKE) -f CMakeFiles/test_env.dir/build.make CMakeFiles/test_env.dir/build
+.PHONY : test_env/fast
+
+#=============================================================================
+# Target rules for targets named test_util
+
+# Build rule for target.
+test_util: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_util
+.PHONY : test_util
+
+# fast build rule for target.
+test_util/fast:
+	$(MAKE) -f CMakeFiles/test_util.dir/build.make CMakeFiles/test_util.dir/build
+.PHONY : test_util/fast
+
+#=============================================================================
 # Target rules for targets named echo_server
 
 # Build rule for target.
@@ -190,6 +229,19 @@ echo_server: cmake_check_build_system
 echo_server/fast:
 	$(MAKE) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/build
 .PHONY : echo_server/fast
+
+#=============================================================================
+# Target rules for targets named test_application
+
+# Build rule for target.
+test_application: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_application
+.PHONY : test_application
+
+# fast build rule for target.
+test_application/fast:
+	$(MAKE) -f CMakeFiles/test_application.dir/build.make CMakeFiles/test_application.dir/build
+.PHONY : test_application/fast
 
 #=============================================================================
 # Target rules for targets named test_http_server
@@ -229,32 +281,6 @@ test_iomanager: cmake_check_build_system
 test_iomanager/fast:
 	$(MAKE) -f CMakeFiles/test_iomanager.dir/build.make CMakeFiles/test_iomanager.dir/build
 .PHONY : test_iomanager/fast
-
-#=============================================================================
-# Target rules for targets named test_util
-
-# Build rule for target.
-test_util: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_util
-.PHONY : test_util
-
-# fast build rule for target.
-test_util/fast:
-	$(MAKE) -f CMakeFiles/test_util.dir/build.make CMakeFiles/test_util.dir/build
-.PHONY : test_util/fast
-
-#=============================================================================
-# Target rules for targets named test_node
-
-# Build rule for target.
-test_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_node
-.PHONY : test_node
-
-# fast build rule for target.
-test_node/fast:
-	$(MAKE) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/build
-.PHONY : test_node/fast
 
 #=============================================================================
 # Target rules for targets named deepblue
@@ -425,6 +451,33 @@ deepblue/address.s: deepblue/address.cc.s
 deepblue/address.cc.s:
 	$(MAKE) -f CMakeFiles/deepblue.dir/build.make CMakeFiles/deepblue.dir/deepblue/address.cc.s
 .PHONY : deepblue/address.cc.s
+
+deepblue/application.o: deepblue/application.cc.o
+
+.PHONY : deepblue/application.o
+
+# target to build an object file
+deepblue/application.cc.o:
+	$(MAKE) -f CMakeFiles/deepblue.dir/build.make CMakeFiles/deepblue.dir/deepblue/application.cc.o
+.PHONY : deepblue/application.cc.o
+
+deepblue/application.i: deepblue/application.cc.i
+
+.PHONY : deepblue/application.i
+
+# target to preprocess a source file
+deepblue/application.cc.i:
+	$(MAKE) -f CMakeFiles/deepblue.dir/build.make CMakeFiles/deepblue.dir/deepblue/application.cc.i
+.PHONY : deepblue/application.cc.i
+
+deepblue/application.s: deepblue/application.cc.s
+
+.PHONY : deepblue/application.s
+
+# target to generate assembly for a file
+deepblue/application.cc.s:
+	$(MAKE) -f CMakeFiles/deepblue.dir/build.make CMakeFiles/deepblue.dir/deepblue/application.cc.s
+.PHONY : deepblue/application.cc.s
 
 deepblue/bytearray.o: deepblue/bytearray.cc.o
 
@@ -1209,6 +1262,33 @@ tests/test_address.cc.s:
 	$(MAKE) -f CMakeFiles/test_address.dir/build.make CMakeFiles/test_address.dir/tests/test_address.cc.s
 .PHONY : tests/test_address.cc.s
 
+tests/test_application.o: tests/test_application.cc.o
+
+.PHONY : tests/test_application.o
+
+# target to build an object file
+tests/test_application.cc.o:
+	$(MAKE) -f CMakeFiles/test_application.dir/build.make CMakeFiles/test_application.dir/tests/test_application.cc.o
+.PHONY : tests/test_application.cc.o
+
+tests/test_application.i: tests/test_application.cc.i
+
+.PHONY : tests/test_application.i
+
+# target to preprocess a source file
+tests/test_application.cc.i:
+	$(MAKE) -f CMakeFiles/test_application.dir/build.make CMakeFiles/test_application.dir/tests/test_application.cc.i
+.PHONY : tests/test_application.cc.i
+
+tests/test_application.s: tests/test_application.cc.s
+
+.PHONY : tests/test_application.s
+
+# target to generate assembly for a file
+tests/test_application.cc.s:
+	$(MAKE) -f CMakeFiles/test_application.dir/build.make CMakeFiles/test_application.dir/tests/test_application.cc.s
+.PHONY : tests/test_application.cc.s
+
 tests/test_bytearray.o: tests/test_bytearray.cc.o
 
 .PHONY : tests/test_bytearray.o
@@ -1289,6 +1369,33 @@ tests/test_daemon.s: tests/test_daemon.cc.s
 tests/test_daemon.cc.s:
 	$(MAKE) -f CMakeFiles/test_daemon.dir/build.make CMakeFiles/test_daemon.dir/tests/test_daemon.cc.s
 .PHONY : tests/test_daemon.cc.s
+
+tests/test_env.o: tests/test_env.cc.o
+
+.PHONY : tests/test_env.o
+
+# target to build an object file
+tests/test_env.cc.o:
+	$(MAKE) -f CMakeFiles/test_env.dir/build.make CMakeFiles/test_env.dir/tests/test_env.cc.o
+.PHONY : tests/test_env.cc.o
+
+tests/test_env.i: tests/test_env.cc.i
+
+.PHONY : tests/test_env.i
+
+# target to preprocess a source file
+tests/test_env.cc.i:
+	$(MAKE) -f CMakeFiles/test_env.dir/build.make CMakeFiles/test_env.dir/tests/test_env.cc.i
+.PHONY : tests/test_env.cc.i
+
+tests/test_env.s: tests/test_env.cc.s
+
+.PHONY : tests/test_env.s
+
+# target to generate assembly for a file
+tests/test_env.cc.s:
+	$(MAKE) -f CMakeFiles/test_env.dir/build.make CMakeFiles/test_env.dir/tests/test_env.cc.s
+.PHONY : tests/test_env.cc.s
 
 tests/test_fiber.o: tests/test_fiber.cc.o
 
@@ -1706,13 +1813,15 @@ help:
 	@echo "... test_fiber"
 	@echo "... test_http_connection"
 	@echo "... test_hook"
+	@echo "... test_node"
+	@echo "... test_env"
+	@echo "... test_util"
 	@echo "... echo_server"
 	@echo "... edit_cache"
+	@echo "... test_application"
 	@echo "... test_http_server"
 	@echo "... test_address"
 	@echo "... test_iomanager"
-	@echo "... test_util"
-	@echo "... test_node"
 	@echo "... rebuild_cache"
 	@echo "... deepblue"
 	@echo "... test_thread"
@@ -1728,6 +1837,9 @@ help:
 	@echo "... deepblue/address.o"
 	@echo "... deepblue/address.i"
 	@echo "... deepblue/address.s"
+	@echo "... deepblue/application.o"
+	@echo "... deepblue/application.i"
+	@echo "... deepblue/application.s"
 	@echo "... deepblue/bytearray.o"
 	@echo "... deepblue/bytearray.i"
 	@echo "... deepblue/bytearray.s"
@@ -1815,6 +1927,9 @@ help:
 	@echo "... tests/test_address.o"
 	@echo "... tests/test_address.i"
 	@echo "... tests/test_address.s"
+	@echo "... tests/test_application.o"
+	@echo "... tests/test_application.i"
+	@echo "... tests/test_application.s"
 	@echo "... tests/test_bytearray.o"
 	@echo "... tests/test_bytearray.i"
 	@echo "... tests/test_bytearray.s"
@@ -1824,6 +1939,9 @@ help:
 	@echo "... tests/test_daemon.o"
 	@echo "... tests/test_daemon.i"
 	@echo "... tests/test_daemon.s"
+	@echo "... tests/test_env.o"
+	@echo "... tests/test_env.i"
+	@echo "... tests/test_env.s"
 	@echo "... tests/test_fiber.o"
 	@echo "... tests/test_fiber.i"
 	@echo "... tests/test_fiber.s"

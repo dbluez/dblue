@@ -20,6 +20,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zhangy/Project/deepblue/deepblue/address.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/address.cc.o"
+  "/home/zhangy/Project/deepblue/deepblue/application.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/application.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/bytearray.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/bytearray.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/config.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/config.cc.o"
   "/home/zhangy/Project/deepblue/deepblue/daemon.cc" "/home/zhangy/Project/deepblue/CMakeFiles/deepblue.dir/deepblue/daemon.cc.o"
