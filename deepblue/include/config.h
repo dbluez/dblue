@@ -28,8 +28,10 @@ namespace deepblue
         typedef std::shared_ptr<ConfigVarBase> ptr;
 
         // 构造函数
-        ConfigVarBase(const std::string &name, const std::string &description = "")
-            : m_name(name), m_description(description)
+        ConfigVarBase(const std::string &name,
+                      const std::string &description = "")
+            : m_name(name),
+              m_description(description)
         {
             std::transform(m_name.begin(), m_name.end(), m_name.begin(), ::tolower);
         }
@@ -62,19 +64,17 @@ namespace deepblue
     class LexicalCast
     {
     public:
-        /**
-         * @brief 类型转换
-         * @param[in] v 源类型值
-         * @return 返回v转换后的目标类型
-         * @exception 当类型不可转换时抛出异常
-         */
+        // 类型转换
+        // v 源类型值
+        // 返回v转换后的目标类型
+        // 当类型不可转换时抛出异常
         T operator()(const F &v)
         {
             return boost::lexical_cast<T>(v);
         }
     };
 
-    // 类型转换模板类片特化(YAML String 转换成 std::vector<T>)
+    // 类型转换模板类偏特化(YAML String 转换成 std::vector<T>)
     template <class T>
     class LexicalCast<std::string, std::vector<T>>
     {
@@ -306,13 +306,11 @@ namespace deepblue
         }
     };
 
-    /**
-     * @brief 配置参数模板子类,保存对应类型的参数值
-     * @details T 参数的具体类型
-     *          FromStr 从std::string转换成T类型的仿函数
-     *          ToStr 从T转换成std::string的仿函数
-     *          std::string 为YAML格式的字符串
-     */
+    // 配置参数模板子类,保存对应类型的参数值
+    // @details T 参数的具体类型
+    //          FromStr 从std::string转换成T类型的仿函数
+    //          ToStr 从T转换成std::string的仿函数
+    //          std::string 为YAML格式的字符串
     template <class T, class FromStr = LexicalCast<std::string, T>, class ToStr = LexicalCast<T, std::string>>
     class ConfigVar : public ConfigVarBase
     {
@@ -441,16 +439,14 @@ namespace deepblue
         typedef std::unordered_map<std::string, ConfigVarBase::ptr> ConfigVarMap;
         typedef RWMutex RWMutexType;
 
-        /**
-         * @brief 获取/创建对应参数名的配置参数
-         * @param[in] name 配置参数名称
-         * @param[in] default_value 参数默认值
-         * @param[in] description 参数描述
-         * @details 获取参数名为name的配置参数,如果存在直接返回
-         *          如果不存在,创建参数配置并用default_value赋值
-         * @return 返回对应的配置参数,如果参数名存在但是类型不匹配则返回nullptr
-         * @exception 如果参数名包含非法字符[^0-9a-z_.] 抛出异常 std::invalid_argument
-         */
+        // 获取/创建对应参数名的配置参数
+        // name 配置参数名称
+        // default_value 参数默认值
+        // description 参数描述
+        // 获取参数名为name的配置参数,如果存在直接返回
+        //          如果不存在,创建参数配置并用default_value赋值
+        // 返回对应的配置参数,如果参数名存在但是类型不匹配则返回nullptr
+        // 如果参数名包含非法字符[^0-9a-z_.] 抛出异常 std::invalid_argument
         template <class T>
         static typename ConfigVar<T>::ptr Lookup(const std::string &name,
                                                  const T &default_value, const std::string &description = "")
@@ -485,11 +481,9 @@ namespace deepblue
             return v;
         }
 
-        /**
-         * @brief 查找配置参数
-         * @param[in] name 配置参数名称
-         * @return 返回配置参数名为name的配置参数
-         */
+        // 查找配置参数
+        // name 配置参数名称
+        // 返回配置参数名为name的配置参数
         template <class T>
         static typename ConfigVar<T>::ptr Lookup(const std::string &name)
         {
