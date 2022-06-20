@@ -524,3 +524,16 @@ k2:
 2022-06-10 01:40:05	use_count:1	20154
 2022-06-10 01:40:05	test_fiber end	20154
 2022-06-10 01:40:05	main end	20152
+2022-06-20 15:54:40	on_logger_conf_changed	19430
+2022-06-20 15:54:44	on_logger_conf_changed	19453
+2022-06-20 15:54:45	on_logger_conf_changed	19460
+2022-06-20 15:54:46	on_logger_conf_changed	19463
+2022-06-20 15:54:46	on_logger_conf_changed	19465
+2022-06-20 15:54:48	on_logger_conf_changed	19473
+2022-06-20 15:54:48	on_logger_conf_changed	19476
+2022-06-20 15:54:49	on_logger_conf_changed	19483
+2022-06-20 15:54:49	on_logger_conf_changed	19494
+2022-06-20 15:54:50	on_logger_conf_changed	19497
+2022-06-20 15:54:50	on_logger_conf_changed	19499
+2022-06-20 15:54:51	on_logger_conf_changed	19515
+2022-06-20 15:54:51	on_logger_conf_changed	19517

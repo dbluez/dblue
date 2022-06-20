@@ -14,14 +14,11 @@ namespace deepblue
     public:
         typedef RWMutex RWMutexType;
 
-        /**
-         * @brief 初始化，包括记录程序名称与路径，解析命令行选项和参数
-         * @details 命令行选项全部以-开头，后面跟可选参数，选项与参数构成key-value结构，被存储到程序的自定义环境变量中，
-         * 如果只有key没有value，那么value为空字符串
-         * @param[in] argc main函数传入
-         * @param[in] argv main函数传入
-         * @return  是否成功
-         */
+        // 初始化，包括记录程序名称与路径，解析命令行选项和参数
+        // 命令行选项全部以-开头，后面跟可选参数，选项与参数构成key-value结构，被存储到程序的自定义环境变量中，
+        // 如果只有key没有value，那么value为空字符串
+        // argc main函数传入
+        // argv main函数传入
         bool init(int argc, char **argv);
 
         // 添加自定义环境变量，存储在程序内部的map结构中

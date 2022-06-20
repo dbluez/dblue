@@ -320,8 +320,11 @@ namespace deepblue
         typedef std::function<void(const T &old_value, const T &new_value)> on_change_cb;
 
         // 通过参数名,参数值,描述构造ConfigVar
-        ConfigVar(const std::string &name, const T &default_value, const std::string &description = "")
-            : ConfigVarBase(name, description), m_val(default_value)
+        ConfigVar(const std::string &name,
+                  const T &default_value,
+                  const std::string &description = "")
+            : ConfigVarBase(name, description),
+              m_val(default_value)
         {
         }
 

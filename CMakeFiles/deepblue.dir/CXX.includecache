@@ -6,27 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/zhangy/Project/deepblue/deepblue/log.cc
-log.h
-/home/zhangy/Project/deepblue/deepblue/log.h
-map
--
-iostream
--
-functional
--
-time.h
--
-string.h
--
+/home/zhangy/Project/deepblue/deepblue/config.cc
 config.h
 /home/zhangy/Project/deepblue/deepblue/config.h
-util.h
-/home/zhangy/Project/deepblue/deepblue/util.h
-macro.h
-/home/zhangy/Project/deepblue/deepblue/macro.h
 env.h
 /home/zhangy/Project/deepblue/deepblue/env.h
+util.h
+/home/zhangy/Project/deepblue/deepblue/util.h
+sys/types.h
+-
+sys/stat.h
+-
+unistd.h
+-
 
 deepblue/include/config.h
 memory
@@ -95,16 +87,6 @@ singleton.h
 deepblue/include/singleton.h
 thread.h
 deepblue/include/thread.h
-
-deepblue/include/macro.h
-string.h
--
-assert.h
--
-util.h
-deepblue/include/util.h
-log.h
-deepblue/include/log.h
 
 deepblue/include/mutex.h
 thread

@@ -81,25 +81,25 @@
 //     DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << "before: " << g_int_value_config->getValue();
 //     DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << "before: " << g_float_value_config->toString();
 
-// #define XX(g_var, name, prefix)                                                                     
-//     {                                                                                               
-//         auto &v = g_var->getValue();                                                                
-//         for (auto &i : v)                                                                           
-//         {                                                                                           
-//             DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << #prefix " " #name ": " << i;                  
-//         }                                                                                           
-//         DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << #prefix " " #name " yaml: " << g_var->toString(); 
+// #define XX(g_var, name, prefix)
+//     {
+//         auto &v = g_var->getValue();
+//         for (auto &i : v)
+//         {
+//             DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << #prefix " " #name ": " << i;
+//         }
+//         DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << #prefix " " #name " yaml: " << g_var->toString();
 //     }
 
-// #define XX_M(g_var, name, prefix)                                                                   
-//     {                                                                                               
-//         auto &v = g_var->getValue();                                                                
-//         for (auto &i : v)                                                                           
-//         {                                                                                           
-//             DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << #prefix " " #name ": {"                       
-//                                                    << i.first << " - " << i.second << "}";          
-//         }                                                                                           
-//         DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << #prefix " " #name " yaml: " << g_var->toString(); 
+// #define XX_M(g_var, name, prefix)
+//     {
+//         auto &v = g_var->getValue();
+//         for (auto &i : v)
+//         {
+//             DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << #prefix " " #name ": {"
+//                                                    << i.first << " - " << i.second << "}";
+//         }
+//         DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << #prefix " " #name " yaml: " << g_var->toString();
 //     }
 
 //     XX(g_int_vec_value_config, int_vec, before);
@@ -198,14 +198,14 @@
 // {
 //     DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << "before: " << g_person->getValue().toString() << " - " << g_person->toString();
 
-// #define XX_PM(g_var, prefix)                                                                                     
-//     {                                                                                                            
-//         auto m = g_person_map->getValue();                                                                       
-//         for (auto &i : m)                                                                                        
-//         {                                                                                                        
-//             DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << prefix << ": " << i.first << " - " << i.second.toString(); 
-//         }                                                                                                        
-//         DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << prefix << ": size=" << m.size();                               
+// #define XX_PM(g_var, prefix)
+//     {
+//         auto m = g_person_map->getValue();
+//         for (auto &i : m)
+//         {
+//             DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << prefix << ": " << i.first << " - " << i.second.toString();
+//         }
+//         DEEPBLUE_LOG_INFO(DEEPBLUE_LOG_ROOT()) << prefix << ": size=" << m.size();
 //     }
 
 //     g_person->addListener([](const Person &old_value, const Person &new_value)

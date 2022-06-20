@@ -84,7 +84,6 @@ namespace deepblue
         std::string absoulte_path = deepblue::EnvMgr::GetInstance()->getAbsolutePath(path);
         std::vector<std::string> files;
         FSUtil::ListAllFile(files, absoulte_path, ".yml");
-
         for (auto &i : files)
         {
             {
@@ -97,6 +96,7 @@ namespace deepblue
                 }
                 s_file2modifytime[i] = st.st_mtime;
             }
+
             try
             {
                 YAML::Node root = YAML::LoadFile(i);
@@ -122,5 +122,4 @@ namespace deepblue
             cb(it->second);
         }
     }
-
 }
