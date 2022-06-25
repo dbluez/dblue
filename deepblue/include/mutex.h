@@ -20,10 +20,7 @@ namespace deepblue
     class Semaphore : Noncopyable
     {
     public:
-        /**
-         * @brief 构造函数
-         * @param[in] count 信号量值的大小
-         */
+        // 构造函数
         Semaphore(uint32_t count = 0);
 
         // 析构函数
@@ -44,10 +41,7 @@ namespace deepblue
     struct ScopedLockImpl
     {
     public:
-        /**
-         * @brief 构造函数
-         * @param[in] mutex Mutex
-         */
+        // 构造函数
         ScopedLockImpl(T &mutex)
             : m_mutex(mutex)
         {
@@ -91,10 +85,7 @@ namespace deepblue
     struct ReadScopedLockImpl
     {
     public:
-        /**
-         * @brief 构造函数
-         * @param[in] mutex 读写锁
-         */
+        // 构造函数
         ReadScopedLockImpl(T &mutex)
             : m_mutex(mutex)
         {
@@ -138,10 +129,7 @@ namespace deepblue
     struct WriteScopedLockImpl
     {
     public:
-        /**
-         * @brief 构造函数
-         * @param[in] mutex 读写锁
-         */
+        // 构造函数
         WriteScopedLockImpl(T &mutex)
             : m_mutex(mutex)
         {

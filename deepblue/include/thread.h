@@ -13,11 +13,9 @@ namespace deepblue
         // 线程智能指针类型
         typedef std::shared_ptr<Thread> ptr;
 
-        /**
-         * @brief 构造函数
-         * @param[in] cb 线程执行函数
-         * @param[in] name 线程名称
-         */
+        // 构造函数
+        // cb 线程执行函数
+        // name 线程名称
         Thread(std::function<void()> cb, const std::string &name);
 
         // 析构函数
@@ -38,10 +36,7 @@ namespace deepblue
         // 获取当前的线程名称
         static const std::string &GetName();
 
-        /**
-         * @brief 设置当前线程名称
-         * @param[in] name 线程名称
-         */
+        // 设置当前线程名称
         static void SetName(const std::string &name);
 
     private:

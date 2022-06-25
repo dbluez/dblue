@@ -1,10 +1,3 @@
-/**
- * @file mutex.cc
- * @brief 信号量实现
- * @version 0.1
- * @date 2021-06-09
- */
-
 #include "mutex.h"
 
 namespace deepblue
